@@ -1,0 +1,160 @@
+.pageHero {
+  background: linear-gradient(135deg, var(--navy-2), #16467d);
+  padding: calc(var(--nav-height) + 64px) 0 96px;
+  position: relative;
+}
+.pageTitle {
+  color: var(--white);
+  font-size: clamp(32px, 5vw, 48px);
+  max-width: 720px;
+}
+.pageSubtitle {
+  color: #cfe0f5;
+  max-width: 620px;
+  font-size: 16.5px;
+}
+
+.programGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 340px));
+  justify-content: center;
+  gap: 20px;
+} 
+.programCard {
+  border-top: 4px solid var(--blue);
+}
+.programAge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--red);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+}
+.programCard h3 {
+  font-size: 19px;
+}
+.programCard p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.pillGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+.pill {
+  background: var(--bg-light);
+  color: var(--blue-dark);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 22px;
+  border-radius: 999px;
+}
+.pillRed {
+  background: #ffe6e6;
+  color: var(--red-dark);
+}
+
+.curriculum {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 56px;
+  align-items: center;
+}
+.curriculumImg {
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.methodGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.methodCard {
+  text-align: left;
+}
+.methodIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--red), #ff5f5f);
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.methodCard h3 {
+  font-size: 16.5px;
+}
+.methodCard p {
+  font-size: 13.5px;
+  margin: 0;
+}
+
+.schedule {
+  max-width: 640px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.scheduleRow {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 20px;
+  padding: 16px 20px;
+  border-radius: var(--radius-sm);
+}
+.scheduleRow:nth-child(odd) {
+  background: var(--bg-light);
+}
+.scheduleTime {
+  font-weight: 700;
+  color: var(--blue-dark);
+  font-family: var(--font-display);
+}
+
+@media (max-width: 960px) {
+  .programGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .methodGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .curriculum {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+@media (max-width: 560px) {
+  .programGrid {
+    grid-template-columns: 1fr;
+  }
+  .methodGrid {
+    grid-template-columns: 1fr;
+  }
+  .scheduleRow {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+}
+
+.videoWrap {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  aspect-ratio: 9 / 16;
+  margin: 0 auto;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+}

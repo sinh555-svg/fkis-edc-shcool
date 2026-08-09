@@ -1,0 +1,18 @@
+.counter {
+  text-align: center;
+  color: var(--white);
+}
+.number {
+  display: block;
+  font-family: var(--font-display);
+  font-size: clamp(32px, 4.5vw, 48px);
+  font-weight: 800;
+  color: var(--white);
+}
+.label {
+  display: block;
+  margin-top: 6px;
+  font-size: 14px;
+  color: #b9d4f2;
+  font-weight: 600;
+}

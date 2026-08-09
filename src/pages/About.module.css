@@ -1,0 +1,138 @@
+.pageHero {
+  background: linear-gradient(135deg, var(--navy-2), #16467d);
+  padding: calc(var(--nav-height) + 64px) 0 96px;
+  position: relative;
+}
+.pageTitle {
+  color: var(--white);
+  font-size: clamp(32px, 5vw, 48px);
+  max-width: 700px;
+}
+.pageSubtitle {
+  color: #cfe0f5;
+  max-width: 620px;
+  font-size: 16.5px;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+.historyImg {
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.mvGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+.valueNum {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--red);
+  margin-bottom: 10px;
+}
+
+.facilitiesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.facilityItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--bg-light);
+  border-radius: var(--radius-sm);
+  padding: 16px 18px;
+  font-weight: 600;
+  color: var(--navy);
+}
+.facilityItem svg {
+  color: var(--blue-dark);
+  flex-shrink: 0;
+}
+
+.timeline {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.timelineItem {
+  display: grid;
+  grid-template-columns: 209px 20px 1fr;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 34px;
+  position: relative;
+}
+.timelineItem:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  left: 200px;
+  top: 22px;
+  bottom: -8px;
+  width: 2px;
+  background: var(--line);
+}
+.timelineYear {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--blue-dark);
+  font-size: 15px;
+  padding-top: 2px;
+}
+.timelineDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--red);
+  margin-top: 4px;
+}
+.timelineItem p {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .split {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .valuesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .facilitiesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 560px) {
+  .mvGrid {
+    grid-template-columns: 1fr;
+  }
+  .valuesGrid {
+    grid-template-columns: 1fr;
+  }
+  .facilitiesGrid {
+    grid-template-columns: 1fr;
+  }
+  .timelineItem {
+    grid-template-columns: 70px 16px 1fr;
+  }
+  .timelineItem:not(:last-child)::before {
+    left: 78px;
+  }
+}

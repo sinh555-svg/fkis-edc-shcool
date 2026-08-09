@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "schoolName": "Future Kids International School",
+    "tagline": "Future Kids International School"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "academic": "Academic",
+    "admission": "Admission",
+    "news": "News & Events",
+    "contact": "Contact",
+    "applyNow": "Apply Now",
+    "menu": "Menu"
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode"
+  },
+  "hero": {
+    "eyebrow": "School For Kids · Siem Reap",
+    "title": "Future Kids International School",
+    "subtitle": "Future Kids International School Siem Reap in a specialized early childhood education and care institution providing biling (Khmer-English) programmed from Nusery to Kindergarten, in alignment with national and international education standards with a strong focus on love, safety, and holistic child development, the school provides a nurturing environment where children can grow with confidence, independence, and essential life skills. Future Kids Internatinal School is trusted by parents and guardian for it quality education, discipline, and professional services.The school continues to improve and develop as a leading early childhood education instiution, contributing to the growth of capable of and capable and responsible future generation in cambodia. ",
+    "learnMore": "Learn More",
+    "applyNow": "Apply Now",
+    "scroll": "Scroll to explore"
+  },
+  "features": {
+    "eyebrow": "Why Families Choose Us",
+    "title": "An Ideal Location for Families",
+    "subtitle": "Situated on Makara Road, just outside the heart of Siem Reap, Future Kids international School is conveniently accessible from all major residential areas. Our thoughtfully located campus offers families a smooth daily commute while providing children with a safe, nurturing, and inspiring environment in which to learn, grow, and thrive.",
+    "items": {
+      "teachers": { "title": "An Ideal location for Familie", "desc": "Situated on Makara Road, just outside the heart of siem reap, Future Kids internation School is coveniently accessible form all major residential areas.Our thoughtfully located campus offers families a smooth daily communte while providing children with a safe, nurturing, and inspiring enviroment in which to learn, grow, and thrive" },
+      "classrooms": { "title": "A Clam and Inspiring Learning Environment", "desc": "At Future Kids International School, Children learn in a peaceful, Welcoming campus designed to help them feel safe, confident, and at home. Surrounded by nature, our environment encourages curiosity, exploration, and joyful learning every day with an adventure trail, two age-appropriate playground, a rabbit's and an organic garden children enjoy meaningful outdoor experences that inspire discovery, creativity, and a lifelong love of learning" },
+      "library": { "title": "Thoughtfully Designed for the Future", "desc": "Every aspect of Future Kids has been carefully designed to support children's learning while caring for the world they will inherit. Our eco-conscious campus features creatively repurposed shipping containers, solar energy, and spacious green areas where children can learn, play, and connect with nature every day.We believe that a sustainable environment inspires responsible, curious, and confident young learners." },
+      "scienceLab": { "title": "Designed Classrooms", "desc": "Our classrooms environments are thoughtfully designed to comfort and effective learning to inspire curiosity, confidence, and to instill a love of learning, with large classrooms, every child receives personalized attention and meaningful support from our dedicated teachers.Bright colors, and carefully planned learning spaces create a warm, distraction-free environment where children feel safe, engaged, and ready to thrive." },
+      "computerLab": { "title": "Computer Lab", "desc": "One device per student, with a curriculum covering coding, design, and digital citizenship." },
+      "sports": { "title": "Sports Activities", "desc": "Football, badminton, swimming, and traditional Khmer games across our outdoor courts and field." }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Campus Life",
+    "title": "A look inside a typical day",
+    "subtitle": "At Future Kids School, we believe every child deserves the best foundation for a successful future. We combine international early years education standards with the benefits of outdoor learning, creativity, and environmental awareness to nurture confident, curious, and caring young learners."
+  },
+  "newsPreview": {
+  "eyebrow": "Stay Informed",
+  "title": "Teacher Managers & Supervisors",
+  "subtitle": "Future Kids International School.",
+  "viewAll": "View All News"
+},
+  "principal": {
+    "eyebrow": "A CEO From Our Principal",
+    "title": "Hong SamBath",
+    "body": "At Future Kids International School, we believe a great school is judged not only by exam results, but by the character of the students who walk through its gates each morning. Our teachers know every child by name, our classrooms stay small on purpose, and our doors are always open to families who want to be part of that journey. I invite you to visit our campus and see it for yourself.",
+    "name": "We measure success in confident, kind young people.",
+    "role": "Founding Principal, Future Kids International School"
+  },
+  "stats": {
+    "eyebrow": "Future Kids International School, By The Numbers",
+    "title": "Two decades of growing young minds",
+    "items": {
+      "students": "Students Enrolled",
+      "teachers": "Dedicated Teachers",
+      "years": "Years of Excellence",
+      "rate": "Graduate Success Rate"
+    }
+  },
+  "cta": {
+    "title": "Admissions for 2026–2027 are now open",
+    "subtitle": "Places are limited across every grade. Start your child's application today.",
+    "button": "Start Application"
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About Future Kids International School",
+      "title": "Two years of building an education families trust",
+      "subtitle": "Educatiom Love And Care"
+    },
+    "history": {
+      "eyebrow": "Our Story",
+      "title": "School History",
+      "body": "At Future Kids School, we believe every child deserves the best foundation for a successful future. We combine international early years education standards with the benefits of outdoor learning, creativity, and environmental awareness to nurture confident, curious, and caring young learners.Founded in 2010, Future Kids School was created with a commitment to providing high-quality education in a warm, inspiring, and green learning environment. Our purpose-built campus encourages children to explore, play, discover, and grow through meaningful experiences both inside and outside.We take pride in creating a safe and welcoming atmosphere where every child feels valued, comfortable, and supported. With a personal approach, small community environment, and dedicated educators, every child is known by name and every family becomes part of the Future Kids  community."
+      
+      
+    },
+    "mission": {
+      "title": "UnderStanding the World",
+      "body": " Future Kids nurtures curious, confident learners by encouraging children to explore the world through hands-on experiences. Through sensory play, role-play as community helpers, small-world activities, nature exploration, and age-appropriate technology, children develop curiosity, confidence, and an understanding of people, places, and the environment around them."
+    },
+    "vision": {
+      "title": "Communication & Language",
+      "body": "Communication and language are developed through meaningful interactions, stories, songs, and everyday experiences. Children build confidence in listening, understanding, and expressing their ideas, laying the foundation for reading and writing."
+    },
+    "values": {
+      "eyebrow": "What We Stand For",
+      "title": "Core Values",
+      "items": {
+        "respect": { "title": "Creative Development", "desc": "At Future Kids’ International School, we believe creativity is essential to a child's growth and lifelong learning. Through inspiring, hands-on experiences, children are encouraged to express their ideas, explore their imagination, and build confidence in a supportive environment." },
+        "curiosity": { "title": "Mathematics", "desc": "At Future Kids, children develop a strong foundation in mathematics through engaging, hands-on learning. They build confidence in numbers, shapes, patterns, and problem-solving while applying mathematical concepts in meaningful, everyday experiences." },
+        "integrity": { "title": "Literacy", "desc": "A Shared story between a child and a familiar loved adult has a huge impact on children's interest a motivation for reading later on 'Penny Tassoni President of PACEY' At Future Kids School, we foster a lifelong love of literacy through meaningful experiences that inspire curiosity, communication, and creativity. In a language-rich environment, children develop early reading and writing skills by listening to stories, exploring books, recognizing print, and expressing their ideas through mark-making and purposeful play." },
+        "resilience": { "title": "Physical Development", "desc": "Purposeful movement and Practical Life experiences help children develop independence, coordination, and confidence—building the skills they need for everyday life and future learning Childern will Develop gross and fine motor skills Build independece through self-care Strengthen balance, coordination and concentration Use materials and toos with confidence and care" }
+      }
+    },
+    "facilities": {
+      "eyebrow": "Our environment",
+      "title": "Information Office",
+      "items": {
+        "library": "Reading corner",
+        "labs": "Sand Play Area, Biking s &Mini Garden",
+        "auditorium": "Bunny House",
+        "field": "PlayGround & Football space",
+        "clinic": "Student Health Clinic",
+        "cafeteria": "A Safe and Green Place to Grow"
+      }
+    },
+    "timeline": {
+      "eyebrow": "Milestones",
+      "title": "Our Journey",
+      "items": [
+        { "year": "Qualified & Caring Educators", "text": "Dedicated educators who inspire, guide, and support every child’s unique development through personalized care and meaningful learning experiences." },
+        { "year": "Holistic Montessori Approach", "text": "Our Montessori approach nurtures the whole child by fostering independence, creativity, confidence, and lifelong learning through a thoughtfully prepared environment" },
+        { "year": "Convenient Location", "text": "Conveniently located on Makara Road, just outside the heart of Siem Reap, our school is easily accessible within a short drive from all areas of the city, providing families with a convenient and comfortable daily journey." },
+        { "year": "Quiet & Comfortable Learning Environment", "text": "A peaceful and nature-inspired campus where children feel safe, relaxed, and inspired to learn through enriching outdoor experiences, including adventure walks, playgrounds, sports areas, animal habitats, sand areas and organic gardening." }
+        
+      ]
+    },
+    "principalPhoto": {
+      "eyebrow": "Leadership",
+      "title": "Our Classrooms",
+      "body": "Our classrooms are designed to create a comfortable and effective learning environment for our children. Small class sizes to guarantee every child receives the attention they deserve and a soft color palette with natural surroundings to promote an at-ease feeling while avoiding unnecessary stimulants or distractions that could prohibit their learning progress. "
+    }
+  },
+  "academic": {
+    "hero": {
+      "eyebrow": "Academics",
+      "title": "A clear pathway from first steps to graduation",
+      "subtitle": "Four programmes, one continuous curriculum, built to carry every student from Kindergarten to university-ready."
+    },
+    "programs": {
+      "eyebrow": "Programmes",
+      "title": "Kindergarten through Nursery and PreSchool",
+      "items": {
+        "kindergarten": { "title": "Kindergarten", "ages": "Grades 1-2", "desc": "" },
+        "primary": { "title": "NurSery", "ages": "Grades 1-2-3-4", "desc": "" },
+        "PreSchool": { "title": "PreSchool", "ages": "Grades 1-2-3", "desc": "" },
+        "highschool": { "title": "", "ages": "", "desc": "" }
+      }
+    },
+    "departments": {
+      "eyebrow": "Departments",
+      "title": "Academic Departments",
+      "items": {
+        "languages": "Languages (Khmer & English)",
+        "math": "Mathematics",
+        "science": "SocialStudies",
+        "socialStudies": "",
+        "arts": "",
+        "pe": "Physical Education"
+      }
+    },
+    "curriculum": {
+      "eyebrow": "Quiet and comfortable",
+      "title": "Designed with care",
+      "body": "In IPC Green tradition, this campus has a very welcoming and natural feel.  A relaxing atmosphere where children can feel comfortable and enjoy their learning environment. With features like a adventure walk, two playgrounds, tortoise habitat and organic farm the children get a chance to experience the outdoors throughout their learning experience. As a central part of our philosophy is to provide a better future for our children, even our school was designed with sustainable ideology in mind. Our structures made from recycled shipping containers, we create solar power, and leave plenty of natural green space outside for everyone to enjoy."
+    },
+    "methods": {
+      "eyebrow": "Teaching Methods",
+      "title": "How we teach",
+      "items": {
+        "projectBased": { "title": "Language & Communication", "desc": "Speaking, listening, vocabulary, and simple conversations" },
+        "smallGroups": { "title": "Early Mathematics", "desc": "Numbers, counting, shapes, colors, and simple patterns" },
+        "technology": { "title": "Art & Creativity", "desc": "Drawing, coloring, painting, music, and crafts" },
+        "assessment": { "title": "Physical Development", "desc": "Movement, exercise, coordination, and outdoor play" }
+      }
+    },
+    "activities": {
+      "eyebrow": "Beyond the Classroom",
+      "title": "Activities & Student",
+      "items": {
+        "robotics": "Robotics Club",
+        "debate": "Debate Society",
+        "art": "Art & Design Club",
+        "music": "School Choir & Band",
+        "football": "Football Team",
+        "volunteer": "Community Volunteering"
+      }
+    },
+    "schedule": {
+      "eyebrow": "A Typical Day",
+      "title": "School Schedule",
+      "items": [
+        { "time": "7:00 – 7:30", "activity": "Arrival & Morning Assembly" },
+        { "time": "7:30 – 9:30", "activity": "we study" },
+        { "time": "9:30 – 9:50", "activity": "Morning Break" },
+        { "time": "9:50 – 11:50", "activity": "Period 3–4: Core Subjects" },
+        { "time": "12:00 – 1:00", "activity": "break" },
+        { "time": "3:00 – 3:50", "activity": "Period 5–6: Electives & Labs" },
+        { "time": "4:50 – 5:00", "activity": "we back home" }
+      ]
+    }
+  },
+  "admission": {
+    "hero": {
+      "eyebrow": "Admission",
+      "title": "Join the Future Kids International School community",
+      "subtitle": "Admissions for the 2026–2027 school year are open across all grades, from Kindergarten through Grade 12."
+    },
+    "requirements": {
+      "eyebrow": "Before You Apply",
+      "title": "Admission Requirements",
+      "items": {
+        "birthCert": "Child’s birth certificate",
+        "reportCard": "Parent/guardian identification",
+        "photo": "Emergency contact details",
+        "healthRecord": "Parent/guardian interview",
+        "interview": "Family interview with the admissions office"
+      }
+    },
+    "process": {
+      "eyebrow": "How It Works",
+      "title": "Application Process",
+      "steps": {
+        "step1": { "title": "Submit Application", "desc": "Complete and return the application form with required documents." },
+        "step2": { "title": "Entrance Assessment", "desc": "Age-appropriate literacy and numeracy check for the student." },
+        "step3": { "title": "Family Interview", "desc": "A short conversation with our admissions team about your child's needs." },
+        "step4": { "title": "Enrolment Confirmation", "desc": "Receive your offer letter and secure your place with the deposit." }
+      }
+    },
+    "tuition": {
+      "eyebrow": "Promotion",
+      "title": "🎉 FREE 1-Week Trial Classes!",
+      "note": "Give your child the opportunity to learn, grow, and succeed!",
+      "items": {
+        "kindergarten": { "level": "Kindergarten(Grades1-2)", "price": "" },
+        "Nursery": { "level": "Nursery (Grades 1–2-3-4)", "price": "" },
+        "secondary": { "level": "Secondary (Grades 7–9)", "price": "" },
+        "highschool": { "level": "High School (Grades 10–12)", "price": "" }
+      }
+    },
+    "scholarships": {
+      "eyebrow": "Make FriendShip",
+      "title": " Growing stronger together, one smile at a time",
+      "body": "A friend is someone who makes us smile, laugh, and feel happy. We play together, learn together, and help each other every day. Good friends are "
+    },
+    "form": {
+      "title": "Download the Application Form",
+      "body": "Print, complete, and return the form to our admissions office, or bring it with you to your family interview.",
+      "download": "Download Application Form"
+    },
+    "applyBanner": {
+      "title": "Ready to begin?",
+      "subtitle": "Our admissions office is happy to answer questions before you apply.",
+      "button": "Apply Now"
+    }
+  },
+  "news": {
+    "hero": {
+      "eyebrow": "News & Events",
+      "title": "What's happening at Future Kids International School",
+      "subtitle": "Announcements, achievements, and upcoming events from around campus."
+    },
+    "searchPlaceholder": "Search news & events…",
+    "noResults": "No news matches your search.",
+    "readMore": "Read More",
+    "upcoming": {
+      "eyebrow": "Mark Your Calendar",
+      "title": "Upcoming Events"
+    },
+    "items": {
+      "n1": { "title": "SOKKHAK ANGKOR CLINIC", "date": "", "desc": "Learn about protection and first aid for infants and children aged 6 months to 6 years​ with(Prof. Dr. Ngeth Pises)." },
+      "n2": { "title": "H.E. Dr.Ping Kimchheng", "date": "", "desc": "Strengthening Classroom Management Quality and Positive Behavior" },
+      "n3": { "title": "Polyclinic 777 Siem Reap", "date": "", "desc": "Learn about protection and first aid for infants and children aged 6 months to 6 years." },
+      "n4": { "title": "Teacher Thy Panha", "date": "", "desc": "English Head Teacher" }
+    },
+    "events": {
+      "e1": { "title": "Open Campus Day", "date": "Oct 8, 2026", "time": "7:30 AM" },
+      "e2": { "title": "New Student Orientation", "date": "Free Open", "time": "8:00 AM" },
+      "e3": { "title": "Summer Learning adventure", "date": "Ang 17-30, 2026", "time": "2:00 PM" }
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "We'd love to hear from you",
+      "subtitle": "Questions about admissions, academics, or a campus visit — our office is one message away."
+    },
+    "info": {
+      "title": "Get in Touch",
+      "address": "Address",
+      "addressValue": "National Road 6, Sala Kamreuk, Siem Reap, Cambodia",
+      "phone": "Phone",
+      "phoneValue": "+855 63 123 456",
+      "email": "Email",
+      "emailValue": "info@futurekidsschool.edu.kh",
+      "hours": "Office Hours",
+      "hoursValue": "Monday – Friday, 7:00 AM – 5:00 PM"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "namePlaceholder": "Your name",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+855 ...",
+      "message": "Message",
+      "messagePlaceholder": "How can we help?",
+      "submit": "Send Message",
+      "sending": "Sending…",
+      "success": "Thank you! Your message has been sent — we'll reply within one business day.",
+      "errorRequired": "This field is required.",
+      "errorEmail": "Please enter a valid email address."
+    },
+    "map": {
+      "title": "Find Us"
+    }
+  },
+  "popup": {
+    "title": "Future Kids International School",
+    "body": "",
+    "cta": "Apply Today",
+    "dismiss": "Maybe Later",
+    "close": "Close announcement"
+  },
+  "footer": {
+    "about": "furture kids in Siem Reap dedicated to curious minds and confident futures.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "follow": "Follow Us",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top"
+  },
+  "common": {
+    "loading": "Loading Future Kids International School…",
+    "close": "Close",
+    "menu": "Open menu",
+    "closeMenu": "Close menu"
+  }
+}

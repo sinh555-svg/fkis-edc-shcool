@@ -1,0 +1,26 @@
+.fab {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--blue);
+  color: var(--white);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-soft);
+  opacity: 0;
+  transform: translateY(12px);
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease, background 0.2s ease;
+  z-index: 60;
+}
+.fab.visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
+.fab:hover { background: var(--blue-dark); }
+
+@media (max-width: 640px) {
+  .fab { right: 16px; bottom: 16px; width: 44px; height: 44px; }
+}

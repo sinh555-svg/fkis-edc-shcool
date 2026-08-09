@@ -1,0 +1,229 @@
+/* =========================================================
+   SUNRISE ACADEMY — GLOBAL DESIGN TOKENS
+   Palette is fixed by the brief (red / blue / light-blue).
+   Everything else (type, motion, signature shapes) is
+   the studio's interpretation of a "sunrise over campus"
+   idea: the day starting fresh for every student.
+   ========================================================= */
+:root {
+  /* --- brief-mandated palette --- */
+  --red: #ff1a1a;
+  --red-dark: #d90f0f;
+  --blue: #1a8cff;
+  --blue-dark: #0f6fd6;
+  --bg-light: #e6f2ff;
+
+  /* --- supporting palette (derived, same family) --- */
+  --navy: #0b2545;          /* primary ink */
+  --navy-2: #1ab2ff ;        /* deep panels / nav */
+  --navy-soft: #4c6178;     /* secondary text */
+  --white: #ffffff;
+  --gold: #ffb703;          /* rare accent — stats, stars, awards only */
+  --line: rgba(11, 37, 69, 0.1);
+
+  /* --- type --- */
+  --font-display: 'Fraunces', 'Noto Sans Khmer', serif;
+  --font-body: 'Inter', 'Noto Sans Khmer', sans-serif;
+
+  /* --- shape language --- */
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+  --shadow-soft: 0 10px 30px -12px rgba(11, 37, 69, 0.18);
+  --shadow-card: 0 6px 20px -6px rgba(11, 37, 69, 0.14);
+
+  --container: 1200px;
+  --nav-height: 76px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--navy);
+  background: var(--bg-light);
+  -webkit-font-smoothing: antialiased;
+}
+
+html[lang="km"] body,
+html[lang="km"] h1,
+html[lang="km"] h2,
+html[lang="km"] h3,
+html[lang="km"] .display {
+  font-family: 'khmer os siem reap', 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  color: var(--navy);
+  margin: 0 0 0.5em;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+p { line-height: 1.7; color: var(--navy-soft); margin: 0 0 1em; }
+
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+button { font-family: inherit; cursor: pointer; }
+ul { list-style: none; margin: 0; padding: 0; }
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: 96px 0;
+  position: relative;
+}
+
+.section--tight { padding: 64px 0; }
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--blue-dark);
+  margin-bottom: 14px;
+}
+
+.eyebrow::before {
+  content: "";
+  width: 22px;
+  height: 2px;
+  background: var(--red);
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.section-head {
+  max-width: 640px;
+  margin: 0 0 48px;
+}
+
+.section-head.center { margin-left: auto; margin-right: auto; text-align: center; }
+
+/* --- signature shape: the "sunrise arc" divider ---
+   A recurring scalloped arc motif (a rising sun over the
+   horizon line) is used to seam sections together instead
+   of hard edges, echoing the "every morning, a new
+   beginning" idea threaded through the copy. */
+.sunrise-divider {
+  display: block;
+  width: 100%;
+  height: 64px;
+  margin-top: -1px;
+}
+
+/* --- buttons --- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 15px;
+  border: 2px solid transparent;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease, color 0.25s ease;
+  white-space: nowrap;
+}
+
+.btn:active { transform: scale(0.97); }
+
+.btn--primary {
+  background: var(--red);
+  color: var(--white);
+  box-shadow: 0 10px 24px -8px rgba(255, 26, 26, 0.55);
+}
+.btn--primary:hover { background: var(--red-dark); transform: translateY(-2px); }
+
+.btn--secondary {
+  background: var(--white);
+  color: var(--blue-dark);
+  border-color: var(--blue);
+}
+.btn--secondary:hover { background: var(--blue); color: var(--white); transform: translateY(-2px); }
+
+.btn--ghost {
+  background: transparent;
+  color: var(--white);
+  border-color: rgba(255,255,255,0.6);
+}
+.btn--ghost:hover { background: rgba(255,255,255,0.15); }
+
+.btn--block { width: 100%; }
+
+/* --- cards --- */
+.card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover { transform: translateY(-6px); box-shadow: var(--shadow-soft); }
+
+/* --- focus states (accessibility) --- */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* --- scrollbar niceties --- */
+::selection { background: var(--red); color: var(--white); }
+
+/* --- reduced motion respect --- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* --- responsive base --- */
+@media (max-width: 900px) {
+  .section { padding: 72px 0; }
+}
+@media (max-width: 640px) {
+  .section { padding: 56px 0; }
+  .container { padding: 0 18px; }
+}
+
+/* dark mode support */
+html[data-theme="dark"] body {
+  background: #071427;
+  color: #eaf2ff;
+}
+html[data-theme="dark"] .card {
+  background: #0e2138;
+  box-shadow: 0 6px 20px -6px rgba(0,0,0,0.5);
+}
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4 { color: #f4f9ff; }
+html[data-theme="dark"] p { color: #a9bdd6; }
+
+/* loader */
+.loader-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--navy-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
