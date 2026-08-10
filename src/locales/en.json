@@ -50,7 +50,7 @@
   "viewAll": "View All News"
 },
   "principal": {
-    "eyebrow": "A CEO From Our Principal",
+    "eyebrow": "A CEO",
     "title": "Hong SamBath",
     "body": "At Future Kids International School, we believe a great school is judged not only by exam results, but by the character of the students who walk through its gates each morning. Our teachers know every child by name, our classrooms stay small on purpose, and our doors are always open to families who want to be part of that journey. I invite you to visit our campus and see it for yourself.",
     "name": "We measure success in confident, kind young people.",
@@ -290,9 +290,9 @@
       "address": "Address",
       "addressValue": "National Road 6, Sala Kamreuk, Siem Reap, Cambodia",
       "phone": "Phone",
-      "phoneValue": "+855 63 123 456",
+      "phoneValue": "+855 012 919 819",
       "email": "Email",
-      "emailValue": "info@futurekidsschool.edu.kh",
+      "emailValue": "futurekidsschool.edu.kh",
       "hours": "Office Hours",
       "hoursValue": "Monday – Friday, 7:00 AM – 5:00 PM"
     },
