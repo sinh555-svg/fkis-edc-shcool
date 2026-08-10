@@ -59,3 +59,5 @@ public/
 ## Tech Stack
 
 React 19 · Vite · React Router DOM · react-i18next · Framer Motion · React Icons · CSS Modules
+
+
