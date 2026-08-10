@@ -7,7 +7,7 @@ const LNG = 103.8597
 
 export default function Map({ height = 340 }) {
   const { t } = useTranslation()
-  const src = `https://maps.google.com/maps?q=${LAT},${LNG}&z=15&output=embed`
+  const src = `https://maps.app.goo.gl/9y3qz334j5T6WYgJ8`
 
   return (
     <div className={styles.wrap} style={{ height }}>
