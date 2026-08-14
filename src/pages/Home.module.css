@@ -63,12 +63,16 @@
   background: linear-gradient(135deg, var(--navy-2), #16467d);
   padding: 80px 0;
   position: relative;
+  text-align: center;
+  justify-content: center;
 }
 .statsGrid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   margin-top: 20px;
+  text-align: center;
+  justify-content: center;
 }
 
 .newsHead {
@@ -128,6 +132,8 @@
   .statsGrid {
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
+    text-align: center;
+    justify-content: center;
   }
   .newsGrid {
     grid-template-columns: 1fr 1fr;

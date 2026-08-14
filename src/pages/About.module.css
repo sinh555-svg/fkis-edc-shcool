@@ -19,6 +19,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 56px;
   align-items: center;
+  justify-content: center;
 }
 .historyImg {
   border-radius: var(--radius-lg);

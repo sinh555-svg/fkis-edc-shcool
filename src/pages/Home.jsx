@@ -150,11 +150,9 @@ export default function Home() {
             </span>
             <h2 style={{ color: "#fff" }}>{t("stats.title")}</h2>
           </div>
-          <div className={styles.statsGrid}>
-            <Counter to={350} suffix="+" label={t("stats.items.students")} />
-            <Counter to={79} suffix="+" label={t("stats.items.teachers")} />
+          <div className={styles.statsGrid}>  
+            <Counter to={98} suffix="+" label={t("stats.items.teachers")} />
             <Counter to={2} suffix="+" label={t("stats.items.years")} />
-            <Counter to={98} suffix="%" label={t("stats.items.rate")} />
           </div>
         </div>
       </section>

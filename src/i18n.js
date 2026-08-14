@@ -1,7 +1,4 @@
-// Central i18next configuration.
-// All UI copy lives in /locales/{en,km}.json — nothing is hard-coded
-// in components, so adding a third language later only means
-// dropping in a new JSON file and one <option>.
+
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
 import en from './locales/en.json'
