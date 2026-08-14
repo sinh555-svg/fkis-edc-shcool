@@ -135,7 +135,7 @@
     "hero": {
       "eyebrow": "Academics",
       "title": "A clear pathway from first steps to graduation",
-      "subtitle": "Four programmes, one continuous curriculum, built to carry every student from Kindergarten to university-ready."
+      "subtitle": "Every child learns, grows, and discovers their path from their first school day to graduation."
     },
     "programs": {
       "eyebrow": "Programmes",
@@ -204,7 +204,7 @@
     "hero": {
       "eyebrow": "Admission",
       "title": "Join the Future Kids International School community",
-      "subtitle": "Admissions for the 2026–2027 school year are open across all grades, from Kindergarten through Grade 12."
+      "subtitle": "Admissions for the 2026–2027 school year are open now"
     },
     "requirements": {
       "eyebrow": "Before You Apply",
@@ -214,7 +214,7 @@
         "reportCard": "Parent/guardian identification",
         "photo": "Emergency contact details",
         "healthRecord": "Parent/guardian interview",
-        "interview": "Family interview with the admissions office"
+        "interview": "Family interview with the admissions officer"
       }
     },
     "process": {
