@@ -5,7 +5,7 @@ import Card from '../components/Card.jsx'
 import styles from './Academic.module.css'
 
 const PROGRAM_KEYS = ['kindergarten', 'primary', 'PreSchool']
-const DEPT_KEYS = ['languages', 'math', 'science','pe']
+const DEPT_KEYS = ['languages']
 const METHOD_KEYS = ['projectBased', 'smallGroups', 'technology', 'assessment']
 const METHOD_ICONS = { projectBased: FiLayers, smallGroups: FiUsers, technology: FiCpu, assessment: FiRepeat }
 const ACTIVITY_KEYS = ['robotics', 'debate', 'art', 'music', 'football', 'volunteer']
@@ -77,11 +77,14 @@ export default function Academic() {
             <h2>{t("academic.departments.title")}</h2>
           </div>
           <div className={styles.pillGrid}>
-            {DEPT_KEYS.map((key) => (
-              <span key={key} className={styles.pill}>
-                {t(`academic.departments.items.${key}`)}
-              </span>
-            ))}
+            {DEPT_KEYS.map((key) => {
+              const text = t(`academic.departments.items.${key}`)
+              return (
+                <span key={key} className={`${styles.pill} ${!text ? styles.pillEmpty : ''}`}>
+                  {text}
+                </span>
+              )
+            })}
           </div>
         </div>
       </section>
