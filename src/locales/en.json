@@ -152,11 +152,11 @@
       "title": "Academic Departments",
       "items": {
         "languages": "Languages (Khmer & English)",
-        "math": "Mathematics",
-        "science": "SocialStudies",
+        "math": "",
+        "science": "",
         "socialStudies": "",
         "arts": "",
-        "pe": "Physical Education"
+        "pe": ""
       }
     },
     "curriculum": {
