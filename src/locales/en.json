@@ -141,9 +141,9 @@
       "eyebrow": "Programmes",
       "title": "Kindergarten through Nursery and PreSchool",
       "items": {
-        "kindergarten": { "title": "Kindergarten", "ages": "Grades 1-2", "desc": "" },
-        "primary": { "title": "NurSery", "ages": "Grades 1-2-3-4", "desc": "" },
-        "PreSchool": { "title": "PreSchool", "ages": "Grades 1-2-3", "desc": "" },
+        "kindergarten": { "title": "Kindergarten", "ages": "5-6yrs", "desc": "" },
+        "primary": { "title": "NurSery", "ages": "6mos-15mos", "desc": "" },
+        "PreSchool": { "title": "PreSchool", "ages": "3-4-5yrs", "desc": "" },
         "highschool": { "title": "", "ages": "", "desc": "" }
       }
     },
