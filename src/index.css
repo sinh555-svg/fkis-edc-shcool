@@ -14,11 +14,11 @@
   --bg-light: #e6f2ff;
 
   /* --- supporting palette (derived, same family) --- */
-  --navy: #0b2545;          /* primary ink */
+  --navy: #0b2845;          /* primary ink */
   --navy-2: #1ab2ff ;        /* deep panels / nav */
   --navy-soft: #4c6178;     /* secondary text */
   --white: #ffffff;
-  --gold: #ffb703;          /* rare accent — stats, stars, awards only */
+  --gold: #ffb703;          /* rare accent —  , stars, awards only */
   --line: rgba(11, 37, 69, 0.1);
 
   /* --- type --- */
