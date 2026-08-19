@@ -117,12 +117,6 @@ ul { list-style: none; margin: 0; padding: 0; }
    horizon line) is used to seam sections together instead
    of hard edges, echoing the "every morning, a new
    beginning" idea threaded through the copy. */
-.sunrise-divider {
-  display: block;
-  width: 100%;
-  height: 64px;
-  margin-top: -1px;
-}
 
 /* --- buttons --- */
 .btn {

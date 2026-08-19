@@ -55,17 +55,7 @@ export default function News() {
             />
           </div>
         </div>
-        <svg
-          className="sunrise-divider"
-          viewBox="0 0 1200 60"
-          preserveAspectRatio="none"
-          aria-hidden="true"
-        >
-          <path
-            d="M0 60 L0 34 Q150 4 300 34 Q450 60 600 34 Q750 4 900 34 Q1050 60 1200 34 L1200 60 Z"
-            fill="#e6f2ff"
-          />
-        </svg>
+       
       </section>
 
       <section className="section">
