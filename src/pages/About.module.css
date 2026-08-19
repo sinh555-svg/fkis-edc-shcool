@@ -141,7 +141,7 @@
 .pageHero {
   background: 
     linear-gradient(135deg, rgba(22, 70, 125, 0.8), rgba(11, 46, 84, 0.85)),
-    url('ts1.png');
+    url('/ts1.png');
   background-size: cover;
   background-position: center top;
   padding: calc(var(--nav-height) + 200px) 0 96px;
