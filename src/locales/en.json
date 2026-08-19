@@ -74,7 +74,7 @@
   "about": {
     "hero": {
       "eyebrow": "About Future Kids International School",
-      "title": "Two years of building an education families trust",
+      "title": "6 years of building an education families trust",
       "subtitle": "Educatiom Love And Care"
     },
     "history": {
@@ -109,7 +109,7 @@
         "library": "Reading corner",
         "labs": "Sand Play Area, Biking s &Mini Garden",
         "auditorium": "Bunny House",
-        "field": "PlayGround & Football space",
+        "field": "PlayGround & Football space & Golf",
         "clinic": "Student Health Clinic",
         "cafeteria": "A Safe and Green Place to Grow"
       }
@@ -190,13 +190,17 @@
       "eyebrow": "A Typical Day",
       "title": "School Schedule",
       "items": [
-        { "time": "7:00 – 7:30", "activity": "Arrival & Morning Assembly" },
-        { "time": "7:30 – 9:30", "activity": "we study" },
-        { "time": "9:30 – 9:50", "activity": "Morning Break" },
-        { "time": "9:50 – 11:50", "activity": "Period 3–4: Core Subjects" },
-        { "time": "12:00 – 1:00", "activity": "break" },
-        { "time": "3:00 – 3:50", "activity": "Period 5–6: Electives & Labs" },
-        { "time": "4:50 – 5:00", "activity": "we back home" }
+        { "time": "7:00 – 7:40", "activity": "Receive children and assist them with breakfast" },
+        { "time": "7:40 – 8:00", "activity": "Salute the national flag" },
+        { "time": "8:00 – 9:00", "activity": "Study & Admission Time" },
+        { "time": "9:00 – 9:30", "activity": "Have a snack and go out to play" },
+        { "time": "9:30 – 11:00", "activity": "Study & Admission" },
+        { "time": "11:00", "activity": "We Back Home" },
+        { "time": "2:00 – 3:00", "activity": "Study & Admission Time" },
+        { "time": "3:00 – 3:20", "activity": "Have a snack and go out to play" },
+        { "time": "3:20 – 4:50", "activity": "Study & Admission Time" },
+        { "time": "4:50", "activity": "Salute the national flag" },
+        { "time": "5:00", "activity": "We Back Home" }
       ]
     }
   },
@@ -241,7 +245,7 @@
     "scholarships": {
       "eyebrow": "Make FriendShip",
       "title": " Growing stronger together, one smile at a time",
-      "body": "A friend is someone who makes us smile, laugh, and feel happy. We play together, learn together, and help each other every day. Good friends are "
+      "body": "Friendship is a beautiful part of childhood. Good friends play together, share toys, help each other, and learn new things together. They laugh, smile, and make happy memories. A true friend is kind, caring, honest, and respectful. Friends make every day more fun, special, and full of happiness."
     },
     "form": {
       "title": "Download the Application Form",

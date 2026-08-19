@@ -100,7 +100,7 @@ export default function Academic() {
               <h2>{t("academic.curriculum.title")}</h2>
               <p>{t("academic.curriculum.body")}</p>
             </div>
-            <img src="hs5.png" alt="" className={styles.curriculumImg} />
+            <img src="077.jpg" alt="" className={styles.curriculumImg} />
           </div>
         </div>
       </section>

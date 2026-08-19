@@ -158,3 +158,14 @@
   overflow: hidden;
   box-shadow: var(--shadow-soft);
 }
+
+.pageHero {
+  background: 
+    linear-gradient(135deg, rgba(22, 70, 125, 0.8), rgba(11, 46, 84, 0.85)),
+    url('tk1.png');
+  background-size: cover;
+  background-position: center top;
+  padding: calc(var(--nav-height) + 250px) 0 96px;
+  position: relative;
+  background-position: center 30%;
+}

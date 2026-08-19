@@ -36,3 +36,15 @@
 @media (max-width: 560px) {
   .formCard { padding: 24px; }
 }
+
+
+.pageHero {
+  background: 
+    linear-gradient(135deg, rgba(22, 70, 125, 0.8), rgba(11, 46, 84, 0.85)),
+    url('water.png');
+  background-size: cover;
+  background-position: center top;
+  padding: calc(var(--nav-height) + 200px) 0 96px;
+  position: relative;
+  background-position: center -1200px;
+}
