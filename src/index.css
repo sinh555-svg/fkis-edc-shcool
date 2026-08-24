@@ -22,8 +22,8 @@
   --line: rgba(11, 37, 69, 0.1);
 
   /* --- type --- */
-  --font-display: "Battambang", "Noto Sans Khmer", serif;
-  --font-body: "time newromen", ,serif;
+  --font-display: "Poppins", sans-serif;
+  --font-body: "Poppins", sans-serif;
 
   /* --- shape language --- */
   --radius-sm: 10px;
