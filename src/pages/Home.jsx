@@ -34,14 +34,14 @@ const NEWS_IMAGES = {
 
 const TEACHERS = [
   {
-    name: "Sery Danet",
+    name: "Srey Danet",
     role: "Khmer Head Teacher",
     image: "/teacher-danet.jpg",
   },
   {
-    name: "Phann SeryNoch",
+    name: "Phann SreyNoch",
     role: "Deputy Director",
-    image: "/teacher-noch.jpg",
+    image: "/noch.png",
   },
   {
     name: "Eat Chamroeun",

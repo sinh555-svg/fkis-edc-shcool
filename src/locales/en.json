@@ -28,12 +28,12 @@
   "features": {
     "eyebrow": "Why Families Choose Us",
     "title": "An Ideal Location for Families",
-    "subtitle": "Situated on Makara Road, just outside the heart of Siem Reap, Future Kids international School is conveniently accessible from all major residential areas. Our thoughtfully located campus offers families a smooth daily commute while providing children with a safe, nurturing, and inspiring environment in which to learn, grow, and thrive.",
+    "subtitle": "Situated on 7 Makara Road, just outside the heart of Siem Reap, Future Kids international School is conveniently accessible from all major residential areas. Our thoughtfully located campus offers families a smooth daily commute while providing children with a safe, nurturing, and inspiring environment in which to learn, grow, and thrive.",
     "items": {
       "teachers": { "title": "An Ideal location for Familie", "desc": "Situated on Makara Road, just outside the heart of siem reap, Future Kids internation School is coveniently accessible form all major residential areas.Our thoughtfully located campus offers families a smooth daily communte while providing children with a safe, nurturing, and inspiring enviroment in which to learn, grow, and thrive" },
-      "classrooms": { "title": "A Clam and Inspiring Learning Environment", "desc": "At Future Kids International School, Children learn in a peaceful, Welcoming campus designed to help them feel safe, confident, and at home. Surrounded by nature, our environment encourages curiosity, exploration, and joyful learning every day with an adventure trail, two age-appropriate playground, a rabbit's and an organic garden children enjoy meaningful outdoor experences that inspire discovery, creativity, and a lifelong love of learning" },
+      "classrooms": { "title": "A Clam and Inspiring Learning Environment", "desc": "At Future Kids International School, Children learn in a peaceful, Welcoming campus designed to help them feel safe, confident, feel like home. Surrounded by nature, our environment encourages curiosity, exploration, and joyful learning every day with an adventure trail, two age-appropriate playground, a rabbit's and an garden that children enjoy meaningful outdoor experences, inspire discovery, creativity, and a lifelong love of learning" },
       "library": { "title": "Thoughtfully Designed for the Future", "desc": "Every aspect of Future Kids has been carefully designed to support children's learning while caring for the world they will inherit. Our eco-conscious campus features creatively repurposed shipping containers, solar energy, and spacious green areas where children can learn, play, and connect with nature every day.We believe that a sustainable environment inspires responsible, curious, and confident young learners." },
-      "scienceLab": { "title": "Designed Classrooms", "desc": "Our classrooms environments are thoughtfully designed to comfort and effective learning to inspire curiosity, confidence, and to instill a love of learning, with large classrooms, every child receives personalized attention and meaningful support from our dedicated teachers.Bright colors, and carefully planned learning spaces create a warm, distraction-free environment where children feel safe, engaged, and ready to thrive." },
+      "scienceLab": { "title": "Designed Classrooms", "desc": "Our classrooms environments are thoughtfully designed to comfort and effective learning to inspire curiosity, confidence, and to instill a love of learning, with large classrooms, every child receives personalized attention and meaningful support from our dedicated teachers. Bright colors, and carefully planned learning spaces create a warm, distraction-free environment where children feel safe, engaged, and ready to thrive." },
       "computerLab": { "title": "Computer Lab", "desc": "One device per student, with a curriculum covering coding, design, and digital citizenship." },
       "sports": { "title": "Sports Activities", "desc": "Football, badminton, swimming, and traditional Khmer games across our outdoor courts and field." }
     }
@@ -41,7 +41,7 @@
   "gallery": {
     "eyebrow": "Campus Life",
     "title": "A look inside a typical day",
-    "subtitle": "At Future Kids School, we believe every child deserves the best foundation for a successful future. We combine international early years education standards with the benefits of outdoor learning, creativity, and environmental awareness to nurture confident, curious, and caring young learners."
+    "subtitle": "At Future Kids School, we believe every child deserves the best foundation for a successful future. We combine international early years education standards with the benefits of outdoor learning, creativity, and environmental awareness to nurture confident, curiousity, and caring young learners."
   },
   "newsPreview": {
   "eyebrow": "Stay Informed",
@@ -68,25 +68,25 @@
   },
   "cta": {
     "title": "Admissions for 2026–2027 are now open",
-    "subtitle": "Places are limited across every grade. Start your child's application today.",
+    "subtitle": "Places are limited across every level. Start your child's application today.",
     "button": "Start Application"
   },
   "about": {
     "hero": {
       "eyebrow": "About Future Kids International School",
       "title": "6 years of building an education families trust",
-      "subtitle": "Educatiom Love And Care"
+      "subtitle": "Education with Love And Care"
     },
     "history": {
       "eyebrow": "Our Story",
       "title": "School History",
-      "body": "At Future Kids School, we believe every child deserves the best foundation for a successful future. We combine international early years education standards with the benefits of outdoor learning, creativity, and environmental awareness to nurture confident, curious, and caring young learners.Founded in 2010, Future Kids School was created with a commitment to providing high-quality education in a warm, inspiring, and green learning environment. Our purpose-built campus encourages children to explore, play, discover, and grow through meaningful experiences both inside and outside.We take pride in creating a safe and welcoming atmosphere where every child feels valued, comfortable, and supported. With a personal approach, small community environment, and dedicated educators, every child is known by name and every family becomes part of the Future Kids  community."
+      "body": "At Future Kids School, we believe every child deserves the best foundation for a successful future. We combine international early years education standards with the benefits of outdoor learning, creativity, and environmental awareness to nurture confident, curiousity, and caring young learners, Future Kids School was created with a commitment to providing high-quality education in a warm, inspiring, and green learning environment. Our purpose-built campus encourages children to explore, play, discover, and grow through meaningful experiences both inside and outside. We take pride in creating a safe and welcoming atmosphere where every child feels valued, comfortable, and supported. With a personal approach, small community environment, and dedicated educators, every child is known by name and every family becomes part of the Future Kids  community."
       
       
     },
     "mission": {
-      "title": "UnderStanding the World",
-      "body": " Future Kids nurtures curious, confident learners by encouraging children to explore the world through hands-on experiences. Through sensory play, role-play as community helpers, small-world activities, nature exploration, and age-appropriate technology, children develop curiosity, confidence, and an understanding of people, places, and the environment around them."
+      "title": "Understanding the World",
+      "body": " Future Kids nurtures curiousity, confident learners by encouraging children to explore the world through hands-on experiences. Through sensory play, role-play as community helpers, small-world activities, nature exploration, and age-appropriate technology, children develop curiosity, confidence, and an understanding of people, places, and the environment around them."
     },
     "vision": {
       "title": "Communication & Language",
@@ -99,7 +99,7 @@
         "respect": { "title": "Creative Development", "desc": "At Future Kids’ International School, we believe creativity is essential to a child's growth and lifelong learning. Through inspiring, hands-on experiences, children are encouraged to express their ideas, explore their imagination, and build confidence in a supportive environment." },
         "curiosity": { "title": "Mathematics", "desc": "At Future Kids, children develop a strong foundation in mathematics through engaging, hands-on learning. They build confidence in numbers, shapes, patterns, and problem-solving while applying mathematical concepts in meaningful, everyday experiences." },
         "integrity": { "title": "Literacy", "desc": "A Shared story between a child and a familiar loved adult has a huge impact on children's interest a motivation for reading later on 'Penny Tassoni President of PACEY' At Future Kids School, we foster a lifelong love of literacy through meaningful experiences that inspire curiosity, communication, and creativity. In a language-rich environment, children develop early reading and writing skills by listening to stories, exploring books, recognizing print, and expressing their ideas through mark-making and purposeful play." },
-        "resilience": { "title": "Physical Development", "desc": "Purposeful movement and Practical Life experiences help children develop independence, coordination, and confidence—building the skills they need for everyday life and future learning Childern will Develop gross and fine motor skills Build independece through self-care Strengthen balance, coordination and concentration Use materials and toos with confidence and care" }
+        "resilience": { "title": "Physical Development", "desc": "Purposeful movement and Practical Life experiences help children develop independence, coordination, and confidence—building the skills they need for everyday life and future learning. Childern will Develop gross and fine motor skills. Build independece through self-care, Strengthen balance, coordination and concentration, use materials and tool with confidence and care" }
       }
     },
     "facilities": {
@@ -107,7 +107,7 @@
       "title": "Information Office",
       "items": {
         "library": "Reading corner",
-        "labs": "Sand Play Area, Biking s &Mini Garden",
+        "labs": "Sand Play Area, Biking & Mini Garden",
         "auditorium": "Bunny House",
         "field": "PlayGround & Football space & Golf",
         "clinic": "Student Health Clinic",
@@ -120,7 +120,7 @@
       "items": [
         { "year": "Qualified & Caring Educators", "text": "Dedicated educators who inspire, guide, and support every child’s unique development through personalized care and meaningful learning experiences." },
         { "year": "Holistic Montessori Approach", "text": "Our Montessori approach nurtures the whole child by fostering independence, creativity, confidence, and lifelong learning through a thoughtfully prepared environment" },
-        { "year": "Convenient Location", "text": "Conveniently located on Makara Road, just outside the heart of Siem Reap, our school is easily accessible within a short drive from all areas of the city, providing families with a convenient and comfortable daily journey." },
+        { "year": "Convenient Location", "text": "Conveniently located on 7Makara Road, just outside the heart of Siem Reap, our school is easily accessible within a short drive from all areas of the city, providing families with a convenient and comfortable daily journey." },
         { "year": "Quiet & Comfortable Learning Environment", "text": "A peaceful and nature-inspired campus where children feel safe, relaxed, and inspired to learn through enriching outdoor experiences, including adventure walks, playgrounds, sports areas, animal habitats, sand areas and organic gardening." }
         
       ]
@@ -128,7 +128,7 @@
     "principalPhoto": {
       "eyebrow": "Leadership",
       "title": "Our Classrooms",
-      "body": "Our classrooms are designed to create a comfortable and effective learning environment for our children. Small class sizes to guarantee every child receives the attention they deserve and a soft color palette with natural surroundings to promote an at-ease feeling while avoiding unnecessary stimulants or distractions that could prohibit their learning progress. "
+      "body": "Our classrooms are designed to create a comfortable and effective learning environment for our children. Appropriate class sizes to guarantee every child receives the attention they deserve and a soft color palette with natural surroundings to promote an at-ease feeling while avoiding unnecessary stimulants or distractions that could prohibit their learning progress. "
     }
   },
   "academic": {
@@ -142,8 +142,8 @@
       "title": "Kindergarten through Nursery and PreSchool",
       "items": {
         "kindergarten": { "title": "Kindergarten", "ages": "5-6yrs", "desc": "" },
-        "primary": { "title": "NurSery", "ages": "6mos-15mos", "desc": "" },
-        "PreSchool": { "title": "PreSchool", "ages": "3-4-5yrs", "desc": "" },
+        "primary": { "title": "Nursery", "ages": "6mos-3yrs", "desc": "" },
+        "PreSchool": { "title": "Preschool", "ages": "3-4-5yrs", "desc": "" },
         "highschool": { "title": "", "ages": "", "desc": "" }
       }
     },
@@ -162,7 +162,7 @@
     "curriculum": {
       "eyebrow": "Quiet and comfortable",
       "title": "Designed with care",
-      "body": "In IPC Green tradition, this campus has a very welcoming and natural feel.  A relaxing atmosphere where children can feel comfortable and enjoy their learning environment. With features like a adventure walk, two playgrounds, tortoise habitat and organic farm the children get a chance to experience the outdoors throughout their learning experience. As a central part of our philosophy is to provide a better future for our children, even our school was designed with sustainable ideology in mind. Our structures made from recycled shipping containers, we create solar power, and leave plenty of natural green space outside for everyone to enjoy."
+      "body": "In Green tradition, this campus has a very welcoming and natural.  A relaxing atmosphere where children can feel comfortable and enjoy their learning environment. With features like a adventure walk, two playgrounds, tortoise habitat and organic garden the children get a chance to experience the outdoors throughout their learning experience. As a central part of our philosophy is to provide a better future for our children, even our school was designed with sustainable ideology in mind. Our structures made from recycled shipping containers, we create solar power, and leave plenty of natural green space outside for everyone to enjoy."
     },
     "methods": {
       "eyebrow": "Teaching Methods",
@@ -190,17 +190,17 @@
       "eyebrow": "A Typical Day",
       "title": "School Schedule",
       "items": [
-        { "time": "7:00 – 7:40", "activity": "Receive children and assist them with breakfast" },
-        { "time": "7:40 – 8:00", "activity": "Salute the national flag" },
+        { "time": "7:00 – 7:40", "activity": "Student Arrival and assist them with breakfast" },
+        { "time": "7:40 – 8:00", "activity": "Assembly" },
         { "time": "8:00 – 9:00", "activity": "Study & Admission Time" },
-        { "time": "9:00 – 9:30", "activity": "Have a snack and go out to play" },
-        { "time": "9:30 – 11:00", "activity": "Study & Admission" },
-        { "time": "11:00", "activity": "We Back Home" },
+        { "time": "9:00 – 9:30", "activity": "Snack Time and Out door play" },
+        { "time": "9:30 – 10:30", "activity": "Study & Admission" },
+        { "time": "10:30- 2:00", "activity": "Preparing Home, Shower, lunch & Nap Time " },
         { "time": "2:00 – 3:00", "activity": "Study & Admission Time" },
-        { "time": "3:00 – 3:20", "activity": "Have a snack and go out to play" },
-        { "time": "3:20 – 4:50", "activity": "Study & Admission Time" },
-        { "time": "4:50", "activity": "Salute the national flag" },
-        { "time": "5:00", "activity": "We Back Home" }
+        { "time": "3:00 – 3:30", "activity": "Snack Time and Out door play" },
+        { "time": "3:30 – 4:40", "activity": "Study & Admission Time" },
+        { "time": "4:40- 5:00", "activity": "Assembly" },
+        { "time": "5:00", "activity": "Homing Time" }
       ]
     }
   },
@@ -233,7 +233,7 @@
     },
     "tuition": {
       "eyebrow": "Promotion",
-      "title": "🎉 FREE 1-Week Trial Classes!",
+      "title": "🎉 1-Week Free Trial Classes!",
       "note": "Give your child the opportunity to learn, grow, and succeed!",
       "items": {
         "kindergarten": { "level": "Kindergarten(Grades1-2)", "price": "" },
@@ -272,15 +272,15 @@
       "title": "Upcoming Events"
     },
     "items": {
-      "n1": { "title": "SOKKHAK ANGKOR CLINIC", "date": "", "desc": "Learn about protection and first aid for infants and children aged 6 months to 6 years​ with(Prof. Dr. Ngeth Pises)." },
-      "n2": { "title": "H.E. Dr.Ping Kimchheng", "date": "", "desc": "Strengthening Classroom Management Quality and Positive Behavior" },
-      "n3": { "title": "Polyclinic 777 Siem Reap", "date": "", "desc": "Learn about protection and first aid for infants and children aged 6 months to 6 years." },
+      "n1": { "title": "SOKKHAK ANGKOR CLINIC", "date": "", "desc": "Learn about protection and first aid for infants and children aged 6 months to 6 years old​ with (Prof. Dr. Ngeth Pises)." },
+      "n2": { "title": "H.E. Dr. Ping Kimchheng", "date": "", "desc": "Strengthening Classroom Management Quality and Positive Behavior" },
+      "n3": { "title": "Polyclinic 777 Siem Reap", "date": "", "desc": "Learn about protection and first aid for infants and children aged 6 months to 6 years old." },
       "n4": { "title": "Teacher Thy Panha", "date": "", "desc": "English Head Teacher" }
     },
     "events": {
-      "e1": { "title": "Open Campus Day", "date": "Oct 8, 2026", "time": "7:30 AM" },
-      "e2": { "title": "New Student Orientation", "date": "Free Open", "time": "8:00 AM" },
-      "e3": { "title": "Summer Learning adventure", "date": "Ang 17-30, 2026", "time": "2:00 PM" }
+      "e1": { "title": "Open Campus Day", "date": "Oct 1st, 2026", "time": "7:30AM - 5:00PM" },
+      "e2": { "title": "New Student Orientation", "date": "Free Open", "time": "7:30AM - 5:00PM" },
+      "e3": { "title": "Summer Learning adventure", "date": "Ang 17-30, 2026", "time": "7:30AM - 4:30PM" }
     }
   },
   "contact": {
@@ -292,13 +292,14 @@
     "info": {
       "title": "Get in Touch",
       "address": "Address",    
-      "addressValue": "National Road 6, Sala Kamreuk, Siem Reap, Cambodia",
+      "addressValue": "7 Makara Road, Sala Kamreuk, Siem Reap, Cambodia",
       "phone": "Phone",
       "phoneValue": "+855 012 919 819",
       "email": "Email",
       "emailValue": "futurekidsinternationalschool.1@gmail.com",
       "hours": "Office Hours",
-      "hoursValue": "Monday – Friday, 7:00 AM – 5:00 PM"
+      "hoursValue": "Monday – Saturday, 7:00 AM – 5:00 PM, (Saturday 7:30AM-11:00AM)"
+
     },
     "form": {
       "title": "Send Us a Message",
@@ -328,7 +329,7 @@
     "close": "Close announcement"
   },
   "footer": {
-    "about": "furture kids in Siem Reap dedicated to curious minds and confident futures.",
+    "about": "Furture Kids in Siem Reap dedicated to curious minds and confident futures.",
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "follow": "Follow Us",
