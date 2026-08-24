@@ -22,8 +22,8 @@
   --line: rgba(11, 37, 69, 0.1);
 
   /* --- type --- */
-  --font-display: "Fraunces", "Noto Sans Khmer", serif;
-  --font-body: "Inter", "Noto Sans Khmer", sans-serif;
+  --font-display: "Battambang", "Noto Sans Khmer", serif;
+  --font-body: "time newromen", ,serif;
 
   /* --- shape language --- */
   --radius-sm: 10px;
@@ -56,7 +56,7 @@ html[lang="km"] h1,
 html[lang="km"] h2,
 html[lang="km"] h3,
 html[lang="km"] .display {
-  font-family: "khmer os siem reap", "Inter", sans-serif;
+  font-family: "Battambang", "Inter", sans-serif;
 }
 
 h1,
