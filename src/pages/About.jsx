@@ -161,7 +161,7 @@ export default function About() {
               <p>{t("about.principalPhoto.body")}</p>
             </div>
             <motion.img
-              src="t-w-s.png"
+              src="office.png"
               alt=""
               className={styles.historyImg}
               initial={{ opacity: 0, x: 20 }}

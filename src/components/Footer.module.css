@@ -83,3 +83,12 @@
 @media (max-width: 560px) {
   .grid { grid-template-columns: 1fr; gap: 32px; }
 }
+
+.footer {
+  background: 
+    linear-gradient(135deg, rgba(11, 46, 84, 0.9)),
+    url('/pencil.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
