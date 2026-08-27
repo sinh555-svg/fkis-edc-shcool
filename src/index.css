@@ -19,7 +19,7 @@
   --navy-soft: #4c6178; /* secondary text */
   --white: #ffffff;
   --gold: #ffb703; /* rare accent —  , stars, awards only */
-  --line: rgba(11, 37, 69, 0.1);
+  --line: #ffff;
 
   /* --- type --- */
   --font-display: "Poppins", sans-serif;
@@ -46,7 +46,7 @@ html {
 body {
   margin: 0;
   font-family: var(--font-body);
-  color: var(--navy);
+  color: #de0909;
   background: var(--bg-light);
   -webkit-font-smoothing: antialiased;
 }
@@ -59,12 +59,11 @@ html[lang="km"] .display {
   font-family: "Battambang", "Inter", sans-serif;
 }
 
-h1,
-h2,
+h1 h2,
 h3,
 h4 {
   font-family: var(--font-display);
-  color: var(--navy);
+  color: #000;
   margin: 0 0 0.5em;
   line-height: 1.15;
   font-weight: 700;
@@ -72,7 +71,7 @@ h4 {
 
 p {
   line-height: 1.7;
-  color: var(--navy-soft);
+  color: #000;
   margin: 0 0 1em;
 }
 

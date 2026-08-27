@@ -20,7 +20,7 @@
   "hero": {
     "eyebrow": "School For Kids · Siem Reap",
     "title": "Future Kids International School",
-    "subtitle": "Future Kids International School Siem Reap in a specialized early childhood education and care institution providing biling (Khmer-English) programmed from Nusery to Kindergarten, in alignment with national and international education standards with a strong focus on love, safety, and holistic child development, the school provides a nurturing environment where children can grow with confidence, independence, and essential life skills. Future Kids Internatinal School is trusted by parents and guardian for it quality education, discipline, and professional services.The school continues to improve and develop as a leading early childhood education instiution, contributing to the growth of capable of and capable and responsible future generation in cambodia. ",
+    "subtitle": "At Future Kids School, your child feels safe, happy, and loved.We help children grow through hand-on play and discovery using tursted teaching methods. ",
     "learnMore": "Learn More",
     "applyNow": "Apply Now",
     "scroll": "Scroll to explore"
@@ -50,11 +50,18 @@
   "viewAll": "View All News"
 },
   "principal": {
-    "eyebrow": "A CEO",
+    "eyebrow": "A CEO  Chief Executive Officer",
     "title": "Hong SamBath",
-    "body": "It is my great pleasure and honor to warmly welcome you to Future Kids International School, a school founded on love, care, and a strong commitment to providing high-quality education through our philosophy of “Education with Love” for every child.As an educator and a mother, I deeply understand that the early years of a child’s life are one of the most important stages for building character, developing good habits and values, and laying the foundation for lifelong learning. Therefore, our core educational philosophy is “Education with Love.” We believe that children who grow up with love, respect, and care will develop into confident individuals with good character and the ability to pursue their dreams. At Future Kids International School, we do more than teach children numbers, letters, and academic knowledge. We focus on nurturing good character, mutual respect, independence, sharing, cooperation, and a love of learning. Through our Montessori Curriculum and Bilingual Program, we strive to provide meaningful learning experiences that support children’s holistic development physically, mentally, intellectually, emotionally, and socially.The school is committed to creating a safe, warm, joyful, and loving environment where children feel that school is their second home. At the same time, we believe that love is the foundation of education. Therefore, we are committed to working closely with parents to create the best possible environment for every child’s growth and learning. I sincerely thank you for your trust and support in entrusting your beloved children to our care and education. We will continue to fulfill our mission with the highest level of responsibility and with the same love and care that we would give to our own children.",
+    "body":[
+      "It is my great pleasure and honor to warmly welcome you to Future Kids International School, a school founded on love, care, and a strong commitment to providing high-quality education through our philosophy of \"Education with Love\" for every child.",
+      "As an educator and a mother, I deeply understand that the early years of a child’s life are one of the most important stages for building character, developing good habits and values, and laying the foundation for lifelong learning.",
+      "Therefore, our core educational philosophy is “Education with Love.” We believe that children who grow up with love, respect, and care will develop into confident individuals with good character and the ability to pursue their dreams. At Future Kids International School, we do more than teach children numbers, letters, and academic knowledge.",
+      "We focus on nurturing good character, mutual respect, independence, sharing, cooperation, and a love of learning. Through our Montessori Curriculum and Bilingual Program, we strive to provide meaningful learning experiences that support children’s holistic development physically, mentally, intellectually, emotionally, and socially.The school is committed to creating a safe, warm, joyful, and loving environment where children feel that school is their second home.",
+      "At the same time, we believe that love is the foundation of education. Therefore, we are committed to working closely with parents to create the best possible environment for every child’s growth and learning.",
+      "I sincerely thank you for your trust and support in entrusting your beloved children to our care and education. We will continue to fulfill our mission with the highest level of responsibility and with the same love and care that we would give to our own children."
+    ],
     "name": "We measure success in confident, kind young people.",
-    "role": "Founding Principal, Future Kids International School"
+    "role": "Ceo Chief Executive Officer, Future Kids International School"
   },
   "stats": {
     "eyebrow": "Future Kids International School, By The Numbers",
@@ -341,5 +348,26 @@
     "close": "Close",
     "menu": "Open menu",
     "closeMenu": "Close menu"
+  },
+  "programOverview": {
+  "eyebrow": "What We Offer",
+  "title": "Program Overview",
+  "items": {
+    "nursery": {
+      "title": "Nursery",
+      "desc": "A warm, nurturing space for our youngest learners to explore and grow."
+    },
+    "kindergarten": {
+      "title": "Kindergarten",
+      "desc": "Building foundational skills through play-based learning."
+    },
+    "preschool": {
+      "title": "Preschool",
+      "desc": "Preparing confident, curious minds for their next big step."
+    }
   }
 }
+}
+
+
+

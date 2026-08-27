@@ -22,6 +22,12 @@ const FEATURE_ICONS = {
   scienceLab: FiActivity,
 };
 
+const PROGRAM_OVERVIEW_KEYS = ['nursery', 'kindergarten', 'preschool'];
+const PROGRAM_IMAGES = {
+  nursery: '/program-nursery.jpg',
+  kindergarten: '/program-kindergarten.jpg',
+  preschool: '/program-preschool.jpg',
+};
 
 const NEWS_SEEDS = ["n1", "n2", "n3", "n4", "n5"];
 const NEWS_IMAGES = {
@@ -61,6 +67,40 @@ export default function Home() {
   return (
     <>
       <Hero />
+
+    {/* PROGRAM OVERVIEW */}
+<section
+  className="section section--tight"
+  style={{ background: "var(--white)" }}
+>
+  <div className="container">
+    <div className="section-head center">
+      <span className="eyebrow">{t("programOverview.eyebrow")}</span>
+      <h2>{t("programOverview.title")}</h2>
+    </div>
+    <div className={styles.programOverviewGrid}>
+      {PROGRAM_OVERVIEW_KEYS.map((key, i) => (
+        <motion.div
+          key={key}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.45, delay: i * 0.08 }}
+        >
+          <div className={styles.programOverviewCard}>
+            <img
+              src={PROGRAM_IMAGES[key]}
+              alt={t(`programOverview.items.${key}.title`)}
+              className={styles.programOverviewImg}
+            />
+            <h3>{t(`programOverview.items.${key}.title`)}</h3>
+            <p>{t(`programOverview.items.${key}.desc`)}</p>
+          </div>
+        </motion.div>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* FEATURES */}
       <section className="section">
@@ -131,7 +171,9 @@ export default function Home() {
             >
               <span className="eyebrow">{t("principal.eyebrow")}</span>
               <h2 className={styles.principalQuote}>{t("principal.title")}</h2>
-              <p>{t("principal.body")}</p>
+              {t("principal.body", { returnObjects: true }).map((para, i) => (
+  <p key={i}>{para}</p>
+))}
               <div className={styles.principalName}>
                 <strong>{t("principal.name")}</strong>
                 <span>{t("principal.role")}</span>
