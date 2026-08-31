@@ -27,8 +27,8 @@
   },
   "features": {
     "eyebrow": "Future Kids International School",
-    "title": "Why Choose Us?",
-    "subtitle": "At Future Kids, we combine a high-quality Montessori principle with the Cambodia national Curriculum, developed through years of educational experience and trusted by thousands of happy children and families. Our programs support each child’s academic, social, emotional, and creative development while building a lifelong love of learning. At Future Kids International School, we combine the proven principles of the Montessori Curriculum with The Early Years Foundation stage including  modifications that allows the curriculum to better suit our philosophy. Our child-centered approach encourages children to learn through exploration, creativity, play, and meaningful experiences. We believe young children develop best when they are supported to discover, think independently, and build confidence at their own pace.Through a carefully designed curriculum, our dedicated educators nurture each child’s academic, social, emotional, and physical development, creating a strong foundation for lifelong learning.",
+    "title": "",
+    "subtitle": "",
     "items": {
       "teachers": { "title": "An Ideal location for Familie", "desc": "Situated on Makara Road, just outside the heart of siem reap, Future Kids internation School is coveniently accessible form all major residential areas.Our thoughtfully located campus offers families a smooth daily communte while providing children with a safe, nurturing, and inspiring enviroment in which to learn, grow, and thrive" },
       "classrooms": { "title": "A Clam and Inspiring Learning Environment", "desc": "At Future Kids International School, Children learn in a peaceful, Welcoming campus designed to help them feel safe, confident, feel like home. Surrounded by nature, our environment encourages curiosity, exploration, and joyful learning every day with an adventure trail, two age-appropriate playground, a rabbit's and an garden that children enjoy meaningful outdoor experences, inspire discovery, creativity, and a lifelong love of learning" },
@@ -92,16 +92,16 @@
       
     },
     "mission": {
-      "title": "Understanding the World",
-      "body": " Future Kids nurtures curiousity, confident learners by encouraging children to explore the world through hands-on experiences. Through sensory play, role-play as community helpers, small-world activities, nature exploration, and age-appropriate technology, children develop curiosity, confidence, and an understanding of people, places, and the environment around them."
+      "title": "",
+      "body": " "
     },
     "vision": {
-      "title": "Communication & Language",
-      "body": "Communication and language are developed through meaningful interactions, stories, songs, and everyday experiences. Children build confidence in listening, understanding, and expressing their ideas, laying the foundation for reading and writing."
+      "title": "",
+      "body": ""
     },
     "values": {
       "eyebrow": "What We Stand For",
-      "title": "Core Values",
+      "title": "Why Choose Us?",
       "items": {
         "respect": { "title": "Creative Development", "desc": "At Future Kids’ International School, we believe creativity is essential to a child's growth and lifelong learning. Through inspiring, hands-on experiences, children are encouraged to express their ideas, explore their imagination, and build confidence in a supportive environment." },
         "curiosity": { "title": "Mathematics", "desc": "At Future Kids, children develop a strong foundation in mathematics through engaging, hands-on learning. They build confidence in numbers, shapes, patterns, and problem-solving while applying mathematical concepts in meaningful, everyday experiences." },
@@ -349,8 +349,24 @@
     "menu": "Open menu",
     "closeMenu": "Close menu"
   },
+  "testimonials": {
+  "eyebrow": "Parent Voices",
+  "title": "Parent Testimonials",
+  "items": {
+    "parent1": {
+      "name": "Sok Dara",
+      "role": "Parent of a Kindergarten Student",
+      "quote": "Future Kids has given my child so much confidence. The teachers are caring and the environment feels like a second home."
+    },
+    "parent2": {
+      "name": "Chan Sopheak",
+      "role": "Parent of a Nursery Student",
+      "quote": "We love how much our daughter has grown here. She comes home every day excited to share what she learned."
+    }
+  }
+},
   "programOverview": {
-  "eyebrow": "What We Offer",
+  "eyebrow": "",
   "title": "Program Overview",
   "items": {
     "nursery": {
@@ -365,6 +381,7 @@
       "title": "Preschool",
       "desc": "Preparing confident, curious minds for their next big step."
     }
+    
   }
 }
 }

@@ -15,18 +15,19 @@ import Counter from "../components/Counter.jsx";
 import Button from "../components/Button.jsx";
 import Card from "../components/Card.jsx";
 import styles from "./Home.module.css";
-
-const FEATURE_ICONS = {
-  classrooms: FiHome,
-  library: FiBook,
-  scienceLab: FiActivity,
-};
+import { useState } from "react";
 
 const PROGRAM_OVERVIEW_KEYS = ['nursery', 'kindergarten', 'preschool'];
 const PROGRAM_IMAGES = {
-  nursery: '/program-nursery.jpg',
-  kindergarten: '/program-kindergarten.jpg',
-  preschool: '/program-preschool.jpg',
+  nursery: '/gallery-1.jpg',
+  kindergarten: '/gallery-2.jpg',
+  preschool: '/hs5.png',
+};
+
+const TESTIMONIAL_KEYS = ['parent1', 'parent2'];
+const TESTIMONIAL_IMAGES = {
+  parent1: '/parent1.jpg',
+  parent2: '/parent2.jpg',
 };
 
 const NEWS_SEEDS = ["n1", "n2", "n3", "n4", "n5"];
@@ -63,6 +64,7 @@ const TEACHERS = [
 
 export default function Home() {
   const { t } = useTranslation();
+  const [showWellbeingMore, setShowWellbeingMore] = useState(false);
 
   return (
     <>
@@ -102,38 +104,88 @@ export default function Home() {
   </div>
 </section>
 
-      {/* FEATURES */}
-      <section className="section">
-        <div className="container">
-          <div className="section-head center">
-            <span className="eyebrow">{t("features.eyebrow")}</span>
-            <h2>{t("features.title")}</h2>
-            <p>{t("features.subtitle")}</p>
-          </div>
-          <div className={styles.featureGrid}>
-            {Object.keys(FEATURE_ICONS).map((key, i) => {
-              const Icon = FEATURE_ICONS[key];
-              return (
-                <motion.div
-                  key={key}
-                  initial={{ opacity: 0, y: 24 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: "-60px" }}
-                  transition={{ duration: 0.5, delay: i * 0.07 }}
-                >
-                  <Card className={styles.featureCard}>
-                    <span className={styles.featureIcon}>
-                      <Icon size={22} />
-                    </span>
-                    <h3>{t(`features.items.${key}.title`)}</h3>
-                    <p>{t(`features.items.${key}.desc`)}</p>
-                  </Card>
-                </motion.div>
-              );
-            })}
-          </div>
+    {/* CAMPUS SHOWCASE - Alternating Layout */}
+<section className="section" style={{ background: "var(--white)" }}>
+  <div className="container">
+    <div className={styles.showcaseWrap}>
+
+      {/* Row 1: Image Left, Text Right */}
+      <div className={styles.showcaseRow}>
+        <img src="/077.jpg" alt="Information Office" className={styles.showcaseImg} />
+        <div>
+          <h3>A Clam and Inspiring Learning Environment</h3>
+          <p>
+          At Future Kids International School, Children learn in a peaceful, Welcoming campus designed to help them feel safe, confident, feel like home.
+          Surrounded by nature, our environment encourages curiosity, exploration, and joyful learning every day with an adventure trail, two age-appropriate playground, a rabbit's and an garden that children enjoy meaningful outdoor experences, inspire discovery, creativity, and a lifelong love of learning.
+          </p>
         </div>
-      </section>
+      </div>
+
+      {/* Row 2: Text Left, Image Right */}
+      <div className={`${styles.showcaseRow} ${styles.showcaseReverse}`}>
+        <div>
+          <h3>Thoughtfully Designed for the Future</h3>
+          <p>
+            Every aspect of Future Kids has been carefully designed to support children's learning while caring for the world they will inherit.
+             Our eco-conscious campus features creatively repurposed shipping containers, solar energy, and spacious green areas where children can learn, play, and connect with nature every day.We believe that a sustainable environment inspires responsible, curious, and confident young learners.
+          </p>
+        </div>
+        <img src="/classroom.jpg" alt="Classroom" className={styles.showcaseImg} />
+      </div>
+
+      {/* Row 3: Image Left, Text Right */}
+      <div className={styles.showcaseRow}>
+        <img src="/playground.jpg" alt="Playground" className={styles.showcaseImg} />
+        <div>
+          <h3>Designed Classrooms</h3>
+          <p>
+            Our classrooms environments are thoughtfully designed to comfort and effective learning to inspire curiosity, confidence, and to instill a love of learning, with large classrooms, every child receives personalized attention and meaningful support from our dedicated teachers. Bright colors, and carefully planned learning spaces create a warm, distraction-free environment where children feel safe, engaged, and ready to thrive.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+      {/* STUDENT WELLBEING & SAFEGUARDING */}
+<section className="section" style={{ background: "var(--white)" }}>
+  <div className="container">
+    <div className={styles.split}>
+      <img
+        src="/hs1.png"
+        alt="Student Wellbeing"
+        className={styles.historyImg}
+      />
+      <div>
+        <span className="eyebrow">Our Commitment</span>
+        <h2>Student Wellbeing & Safeguarding</h2>
+        <p>
+          At Future Kids International School, the safety and wellbeing of every child is our top priority. We maintain a secure, nurturing campus where children feel protected, valued, and free to grow.
+        </p>
+
+        {showWellbeingMore && (
+          <>
+            <p>
+              Our safeguarding policy includes trained staff, secure entry points, CCTV monitoring, and regular health checks. Every teacher and staff member undergoes background checks and child protection training before joining our team.
+            </p>
+            <p>
+              We work closely with families to ensure open communication about each child's physical, emotional, and social wellbeing, creating a strong partnership between home and school.
+            </p>
+          </>
+        )}
+
+        <button
+          onClick={() => setShowWellbeingMore(!showWellbeingMore)}
+          className={styles.readMoreBtn}
+        >
+          {showWellbeingMore ? "Show Less" : "Read More"}
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* GALLERY */}
       <section
@@ -183,21 +235,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* STATS */}
-      <section className={styles.statsSection}>
-        <div className="container">
-          <div className="section-head center">
-            <span className="eyebrow" style={{ color: "#ffd166" }}>
-              {t("stats.eyebrow")}
-            </span>
-            <h2 style={{ color: "#fff" }}>{t("stats.title")}</h2>
-          </div>
-          <div className={styles.statsGrid}>  
-            <Counter to={98} suffix="+" label={t("stats.items.teachers")} />
-            <Counter to={2} suffix="+" label={t("stats.items.years")} />
-          </div>
-        </div>
-      </section>
+      
 
      
 
@@ -235,6 +273,78 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+    {/* PARENT TESTIMONIALS */}
+<section className="section">
+  <div className="container">
+    <div className="section-head center">
+      <span className="eyebrow">Parent Voices</span>
+      <h2>Parent Testimonials</h2>
+    </div>
+    <div className={styles.testimonialGrid}>
+
+      <div className={styles.testimonialCard}>
+        <img src="/parent1.jpg" alt="Sok Dara" className={styles.testimonialImg} />
+        <p className={styles.testimonialQuote}>
+          “Future Kids has helped my daughter develop a strong sense of independence. 
+          She now eats on her own, puts her plate in the sink after meals, and takes responsibility for her daily routines at home. 
+          She understands what needs to be done and completes her tasks independently, without needing to be reminded. We are very happy to see how much confidence and responsibility she has developed.”
+        </p>
+        <strong>Sok Dara</strong>
+        <span className={styles.testimonialRole}>Parent of a Kindergarten Student</span>
+      </div>
+
+      <div className={styles.testimonialCard}>
+        <img src="/parent2.jpg" alt="Chan Sopheak" className={styles.testimonialImg} />
+        <p className={styles.testimonialQuote}>
+          Chandin has developed a wonderful sense of independence at Future Kids.
+          She can now eat independently using a fork and spoon, wash her hands by herself, find and put on her own shoes, and clean up her toys after playing. 
+          We are very pleased with her progress. Future Kids provides Western-standard quality education with a strong focus on safety and hygiene. We also appreciate the 1-week free trial offered to new students, which gives parents a great opportunity to experience the school before enrolling.”
+        </p>
+        <strong>Chan Sopheak</strong>
+        <span className={styles.testimonialRole}>Parent of a Nursery Student</span>
+      </div>
+
+      <div className={styles.testimonialCard}>
+        <img src="/parent3.jpg" alt="Ly Sreymom" className={styles.testimonialImg} />
+        <p className={styles.testimonialQuote}>
+          My 3-year-old son, Hong Noreakithya, has been studying at Future Kids School for two months, and we have already noticed wonderful improvements in his communication, respect, and self-discipline.
+           He is now more focused on writing, follows classroom rules, and has significantly reduced his screen time. 
+           We are very happy with his progress and truly appreciate the care and guidance he receives at Future Kids.
+          I highly recommend Future Kids to any parent looking for a safe, trustworthy school that genuinely cares about children’s development and well-being.”
+        </p>
+        <strong>Ly Sreymom</strong>
+        <span className={styles.testimonialRole}>Parent of a Preschool Student</span>
+      </div>
+
+      <div className={styles.testimonialCard}>
+        <img src="/parent4.jpg" alt="Heng Vibol" className={styles.testimonialImg} />
+        <p className={styles.testimonialQuote}>
+          Since joining Future Kids, my daughter has made remarkable progress in her language and vocabulary skills.
+           She loves singing along with her teachers and has become more cooperative, understanding, and less stubborn. 
+           We have also noticed a significant reduction in her TV and phone screen time. Most importantly, she has developed a strong sense of independence—she can eat by herself, prepare her own milk, and manage her daily routines with confidence.
+            We are very happy with her progress and grateful for the care and guidance she receives at Future Kids.”
+        </p>
+        <strong>Heng Vibol</strong>
+        <span className={styles.testimonialRole}>Parent of a Kindergarten Student</span>
+      </div>
+
+     <div className={`${styles.testimonialCard} ${styles.testimonialCenter}`}>
+  <img src="/parent5.jpg" alt="Chea Sopha" className={styles.testimonialImg} />
+  <p className={styles.testimonialQuote}>
+    “My 2-year-11-month-old son has made wonderful progress since joining Future Kids. 
+    Although he used to be a picky eater at home, he now enjoys eating a variety of foods at school. 
+    His communication skills have also improved significantly—he asks questions, responds actively, and expresses himself more confidently. 
+    He has developed many positive habits, such as putting rubbish in the bin, singing school songs at home, and greeting others politely. 
+    What I especially appreciate about Future Kids is its strong focus on children’s safety and the exceptionally clean and well-maintained bathrooms.
+  </p>
+  <strong>Chea Sopha</strong>
+  <span className={styles.testimonialRole}>Parent of a Nursery Student</span>
+</div>
+
+    </div>
+  </div>
+</section>  
 
       {/* CTA */}
       <section className={styles.cta}>

@@ -57,14 +57,6 @@ export default function About() {
       >
         <div className="container">
           <div className={styles.mvGrid}>
-            <Card>
-              <h3>{t("about.mission.title")}</h3>
-              <p>{t("about.mission.body")}</p>
-            </Card>
-            <Card>
-              <h3>{t("about.vision.title")}</h3>
-              <p>{t("about.vision.body")}</p>
-            </Card>
           </div>
         </div>
       </section>

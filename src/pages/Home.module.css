@@ -195,4 +195,122 @@
   .programOverviewGrid {
     grid-template-columns: 1fr;
   }
+  
+}
+.showcaseWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.showcaseRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+.showcaseReverse {
+  direction: rtl;
+}
+.showcaseReverse > * {
+  direction: ltr;
+}
+.showcaseImg {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+}
+.showcaseRow h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: red;
+}
+.showcaseRow p {
+  font-size: 14.5px;
+  color: var(--text-muted, #555);
+  line-height: 1.6;
+}
+.showcaseList {
+  margin: 10px 0;
+  padding-left: 18px;
+  font-size: 14.5px;
+  color: var(--text-muted, #555);
+}
+.showcaseList li {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .showcaseRow,
+  .showcaseReverse {
+    grid-template-columns: 1fr;
+    direction: ltr;
+  }
+}
+.testimonialGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-top: 20px;
+}
+.testimonialCard {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  padding: 32px;
+  text-align: center;
+}
+.testimonialImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 16px;
+  display: block;
+}
+.testimonialQuote {
+  font-style: italic;
+  color: var(--navy);
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+.testimonialRole {
+  display: block;
+  font-size: 13px;
+  color: var(--text-muted, #777);
+  margin-top: 4px;
+}
+.testimonialCenter {
+  grid-column: 1 / -1;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .testimonialGrid {
+    grid-template-columns: 1fr;
+  }
+}
+.readMoreBtn {
+  margin-top: 16px;
+  padding: 10px 24px;
+  background: var(--blue-dark, #16467d);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.readMoreBtn:hover {
+  background: var(--navy-2, #0b2e54);
+}
+.historyImg {
+  border-radius: 1rem;   /* ← ប្តូរត្រង់នេះ */
+  box-shadow: var(--shadow-soft);
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
 }
