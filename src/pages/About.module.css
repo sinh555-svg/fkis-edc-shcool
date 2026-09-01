@@ -49,24 +49,57 @@
   margin-bottom: 10px;
 }
 
-.facilitiesGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-}
-.facilityItem {
+.showcaseWrap {
   display: flex;
-  align-items: center;
-  gap: 12px;
-  background: var(--bg-light);
-  border-radius: var(--radius-sm);
-  padding: 16px 18px;
-  font-weight: 600;
-  color: var(--navy);
+  flex-direction: column;
+  gap: 60px;
+  margin-top: 20px;
 }
-.facilityItem svg {
-  color: var(--blue-dark);
-  flex-shrink: 0;
+.showcaseRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+.showcaseReverse {
+  direction: rtl;
+}
+.showcaseReverse > * {
+  direction: ltr;
+}
+.showcaseImg {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+}
+.showcaseRow h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: red;
+}
+.showcaseRow p {
+  font-size: 15px;
+  color: var(--text-muted, #666);
+  line-height: 1.7;
+}
+
+@media (max-width: 800px) {
+  .showcaseRow,
+  .showcaseReverse {
+    grid-template-columns: 1fr;
+    direction: ltr;
+  }
+}
+
+@media (max-width: 560px) {
+  .facilityImg {
+    width: 80px;
+    height: 80px;
+  }
+  .facilityCard p {
+    font-size: 14px;
+  }
 }
 
 .timeline {

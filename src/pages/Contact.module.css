@@ -44,7 +44,7 @@
     url('/water1.png');
   background-size: cover;
   background-position: center top;
-  padding: calc(var(--nav-height) + 210px) 0 96px;
+  padding: calc(var(--nav-height) + 250px) 0 96px;
   position: relative;
-  background-position: center -85rem;
+  background-position: center -75rem;
 }

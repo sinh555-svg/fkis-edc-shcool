@@ -81,33 +81,22 @@
   "about": {
     "hero": {
       "eyebrow": "About Future Kids International School",
-      "title": " building an education families trust",
+      "title": " Building an Education Families Trust",
       "subtitle": "Education with Love And Care"
     },
     "history": {
       "eyebrow": "Our Story",
       "title": "School History",
-      "body": "At Future Kids School, we believe every child deserves the best foundation for a successful future. We combine international early years education standards with the benefits of outdoor learning, creativity, and environmental awareness to nurture confident, curiousity, and caring young learners, Future Kids School was created with a commitment to providing high-quality education in a warm, inspiring, and green learning environment. Our purpose-built campus encourages children to explore, play, discover, and grow through meaningful experiences both inside and outside. We take pride in creating a safe and welcoming atmosphere where every child feels valued, comfortable, and supported. With a personal approach, small community environment, and dedicated educators, every child is known by name and every family becomes part of the Future Kids  community."
-      
-      
+      "body": ["At Future Kids School, we believe every child deserves the best foundation for a successful future.",
+              "We combine international early years education standards with the benefits of outdoor learning, creativity, and environmental awareness to nurture confident, curiousity, and caring young learners, Future Kids School was created with a commitment to providing high-quality education in a warm, inspiring, and green learning environment.",
+              "Our purpose-built campus encourages children to explore, play, discover, and grow through meaningful experiences both inside and outside. We take pride in creating a safe and welcoming atmosphere where every child feels valued, comfortable, and supported. ",
+              "With a personal approach, small community environment, and dedicated educators, every child is known by name and every family becomes part of the Future Kids community."
+    ]
     },
-    "mission": {
-      "title": "",
-      "body": " "
-    },
-    "vision": {
-      "title": "",
-      "body": ""
-    },
-    "values": {
-      "eyebrow": "What We Stand For",
-      "title": "Why Choose Us?",
-      "items": {
-        "respect": { "title": "Creative Development", "desc": "At Future Kids’ International School, we believe creativity is essential to a child's growth and lifelong learning. Through inspiring, hands-on experiences, children are encouraged to express their ideas, explore their imagination, and build confidence in a supportive environment." },
-        "curiosity": { "title": "Mathematics", "desc": "At Future Kids, children develop a strong foundation in mathematics through engaging, hands-on learning. They build confidence in numbers, shapes, patterns, and problem-solving while applying mathematical concepts in meaningful, everyday experiences." },
-        "integrity": { "title": "Literacy", "desc": "A Shared story between a child and a familiar loved adult has a huge impact on children's interest a motivation for reading later on 'Penny Tassoni President of PACEY' At Future Kids School, we foster a lifelong love of literacy through meaningful experiences that inspire curiosity, communication, and creativity. In a language-rich environment, children develop early reading and writing skills by listening to stories, exploring books, recognizing print, and expressing their ideas through mark-making and purposeful play." },
-        "resilience": { "title": "Physical Development", "desc": "Purposeful movement and Practical Life experiences help children develop independence, coordination, and confidence—building the skills they need for everyday life and future learning. Childern will Develop gross and fine motor skills. Build independece through self-care, Strengthen balance, coordination and concentration, use materials and tool with confidence and care" }
-      }
+    "whyChooseUs": {
+  "eyebrow": " · Future Kids International School ·",
+  "title": "Why Choose Us",
+  "body": "We offer a high-quality Montessori education that nurtures each child's curiosity, independence, confidence, and love of learning. Through a carefully prepared environment, hands-on experiences, and dedicated guidance from our educators, children develop essential skills and a strong foundation for lifelong success."
     },
     "facilities": {
       "eyebrow": "Our environment",
@@ -123,7 +112,7 @@
     },
     "timeline": {
       "eyebrow": "Milestones",
-      "title": "Our Journey",
+      "title": "Vision Mission Value",
       "items": [
         { "year": "Qualified & Caring Educators", "text": "Dedicated educators who inspire, guide, and support every child’s unique development through personalized care and meaningful learning experiences." },
         { "year": "Holistic Montessori Approach", "text": "Our Montessori approach nurtures the whole child by fostering independence, creativity, confidence, and lifelong learning through a thoughtfully prepared environment" },

@@ -44,73 +44,89 @@ export default function About() {
             <div>
               <span className="eyebrow">{t("about.history.eyebrow")}</span>
               <h2>{t("about.history.title")}</h2>
-              <p>{t("about.history.body")}</p>
+              {t("about.history.body", { returnObjects: true }).map((para, i) => (
+  <p key={i}>{para}</p>
+))}
             </div>
           </div>
         </div>
       </section>
 
-      {/* MISSION / VISION */}
-      <section
-        className="section section--tight"
-        style={{ background: "var(--white)" }}
-      >
-        <div className="container">
-          <div className={styles.mvGrid}>
-          </div>
-        </div>
-      </section>
+   {/* WHY CHOOSE US */}
+<section
+  className="section section--tight"
+  style={{ background: "var(--white)" }}
+>
+  <div className="container">
+    <div className="section-head center">
+      <span className="eyebrow">{t("about.whyChooseUs.eyebrow")}</span>
+      <h2>{t("about.whyChooseUs.title")}</h2>
+      <p>{t("about.whyChooseUs.body")}</p>
+    </div>
+  </div>
+</section>
 
-      {/* VALUES */}
-      <section className="section">
-        <div className="container">
-          <div className="section-head center">
-            <span className="eyebrow">{t("about.values.eyebrow")}</span>
-            <h2>{t("about.values.title")}</h2>
-          </div>
-          <div className={styles.valuesGrid}>
-            {VALUE_KEYS.map((key, i) => (
-              <motion.div
-                key={key}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.45, delay: i * 0.08 }}
-              >
-                <Card>
-                  <span className={styles.valueNum}>0{i + 1}</span>
-                  <h3>{t(`about.values.items.${key}.title`)}</h3>
-                  <p>{t(`about.values.items.${key}.desc`)}</p>
-                </Card>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+  {/* FACILITIES */}
+<section
+  className="section section--tight"
+  style={{ background: "var(--white)" }}
+>
+  <div className="container">
+    <div className="section-head center">
+      <span className="eyebrow">Our Environment</span>
+      <h2>Kids' Entertainment Area</h2>
+    </div>
 
-      {/* FACILITIES */}
-      <section
-        className="section section--tight"
-        style={{ background: "var(--white)" }}
-      >
-        <div className="container">
-          <div className="section-head center">
-            <span className="eyebrow">{t("about.facilities.eyebrow")}</span>
-            <h2>{t("about.facilities.title")}</h2>
-          </div>
-          <div className={styles.facilitiesGrid}>
-            {Object.keys(FACILITY_ICONS).map((key) => {
-              const Icon = FACILITY_ICONS[key];
-              return (
-                <div key={key} className={styles.facilityItem}>
-                  <Icon size={20} />
-                  <span>{t(`about.facilities.items.${key}`)}</span>
-                </div>
-              );
-            })}
-          </div>
+    <div className={styles.showcaseWrap}>
+
+      {/* Row 1: Text Left, Image Right */}
+      <div className={styles.showcaseRow}>
+        <div>
+          <h3>Football Space, Golf</h3>
+          <p>An inspiring outdoor sports environment where children build coordination, balance, teamwork, resilience, and self-confidence through enjoyable, age-appropriate football experiences.</p>
         </div>
-      </section>
+        <img src="/f1.png" alt="Classroom" className={styles.showcaseImg} />
+      </div>
+
+      {/* Row 2: Image Left, Text Right */}
+      <div className={`${styles.showcaseRow} ${styles.showcaseReverse}`}>
+        <div>
+          <h3>Playground</h3>
+          <p>Our thoughtfully designed outdoor learning environment provides a safe and engaging space where children explore, play, and connect with nature while developing confidence, resilience, creativity, and essential physical, cognitive, social, and emotional skills.</p>
+        </div>
+        <img src="/hs2.jpg" alt="Playground" className={styles.showcaseImg} />
+      </div>
+
+      {/* Row 3: Text Left, Image Right */}
+      <div className={styles.showcaseRow}>
+        <div>
+          <h3>Reading Corner</h3>
+          <p>A thoughtfully curated reading environment where children discover the joy of books, cultivate a lifelong love of reading, and strengthen literacy, language, imagination, and critical thinking through meaningful literary experiences.</p>
+        </div>
+        <img src="/f2.jpg" alt="Reading Corner" className={styles.showcaseImg} />
+      </div>
+
+      {/* Row 4: Image Left, Text Right */}
+      <div className={`${styles.showcaseRow} ${styles.showcaseReverse}`}>
+        <div>
+          <h3>Bunny House</h3>
+          <p>Nature-based space where children learn empathy, care, and responsibility through hands-on interactions with rabbits, fostering curiosity and respect for living things.</p>
+        </div>
+        <img src="/hs8.png" alt="Bunny House" className={styles.showcaseImg} />
+      </div>
+
+      {/* Row 5: Text Left, Image Right */}
+      <div className={styles.showcaseRow}>
+        <div>
+          <h3>Sand Play Area, Biking s &Mini Garden</h3>
+          <p>A dedicated clinic ensuring every child's health and safety are looked after throughout the school day.</p>
+        </div>
+        <img src="/hs3.png" alt="Student Health Clinic" className={styles.showcaseImg} />
+      </div>
+
+    </div>
+  </div>
+</section>
 
       {/* TIMELINE */}
       <section className="section">
