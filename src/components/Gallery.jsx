@@ -26,24 +26,7 @@ export default function Gallery() {
 
   return (
     <>
-      <div className={styles.grid}>
-        {images.map((src, i) => (
-          <motion.button
-            key={src}
-            type="button"
-            className={styles.tile}
-            onClick={() => setActiveIndex(i)}
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true, margin: "-40px" }}
-            transition={{ duration: 0.4, delay: i * 0.06 }}
-            aria-label="Open image"
-          >
-            <img src={src} alt="" loading="lazy" />
-          </motion.button>
-        ))}
-      </div>
-
+     
       <AnimatePresence>
         {activeIndex !== null && (
           <motion.div

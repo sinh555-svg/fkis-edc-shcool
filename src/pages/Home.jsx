@@ -65,6 +65,12 @@ const TEACHERS = [
 export default function Home() {
   const { t } = useTranslation();
   const [showWellbeingMore, setShowWellbeingMore] = useState(false);
+  const principalBody = t("principal.body", { returnObjects: true });
+  const principalParagraphs = Array.isArray(principalBody)
+    ? principalBody
+    : typeof principalBody === "string"
+      ? principalBody.split(/(?<=[.!?])\s+/).filter(Boolean)
+      : [];
 
   return (
     <>
@@ -152,6 +158,7 @@ export default function Home() {
 <section className="section" style={{ background: "var(--white)" }}>
   <div className="container">
     <div className={styles.split}>
+      <h2 style={{ textAlign: "center" }}>Student Wellbeing & Safeguarding</h2>
       <img
         src="/hs1.png"
         alt="Student Wellbeing"
@@ -159,7 +166,6 @@ export default function Home() {
       />
       <div>
         <span className="eyebrow">Our Commitment</span>
-        <h2>Student Wellbeing & Safeguarding</h2>
         <p>
           At Future Kids International School, the safety and wellbeing of every child is our top priority. We maintain a secure, nurturing campus where children feel protected, valued, and free to grow.
         </p>
@@ -223,9 +229,9 @@ export default function Home() {
             >
               <span className="eyebrow">{t("principal.eyebrow")}</span>
               <h2 className={styles.principalQuote}>{t("principal.title")}</h2>
-              {t("principal.body", { returnObjects: true }).map((para, i) => (
-  <p key={i}>{para}</p>
-))}
+              {principalParagraphs.map((para, i) => (
+                <p key={i}>{para}</p>
+              ))}
               <div className={styles.principalName}>
                 <strong>{t("principal.name")}</strong>
                 <span>{t("principal.role")}</span>
@@ -278,73 +284,53 @@ export default function Home() {
 <section className="section">
   <div className="container">
     <div className="section-head center">
-      <span className="eyebrow">Parent Voices</span>
-      <h2>Parent Testimonials</h2>
+      <h2 style={{ color: "#e8502a" }}>Parent Testimonials</h2>
     </div>
     <div className={styles.testimonialGrid}>
 
       <div className={styles.testimonialCard}>
-        <img src="/parent1.jpg" alt="Sok Dara" className={styles.testimonialImg} />
+        <img src="/p1.jpg" alt="Parent Testimonial" className={styles.testimonialImg} />
+        <h3 className={styles.testimonialName}>name</h3>
         <p className={styles.testimonialQuote}>
-          “Future Kids has helped my daughter develop a strong sense of independence. 
-          She now eats on her own, puts her plate in the sink after meals, and takes responsibility for her daily routines at home. 
-          She understands what needs to be done and completes her tasks independently, without needing to be reminded. We are very happy to see how much confidence and responsibility she has developed.”
+          " Future Kids has helped my daughter develop a strong sense of independence. She now eats on her own, puts her plate in the sink after meals, and takes responsibility for her daily routines at home. She understands what needs to be done and completes her tasks independently, without needing to be reminded. We are very happy to see how much confidence and responsibility she has developed. "
         </p>
-        <strong>Sok Dara</strong>
-        <span className={styles.testimonialRole}>Parent of a Kindergarten Student</span>
       </div>
 
       <div className={styles.testimonialCard}>
-        <img src="/parent2.jpg" alt="Chan Sopheak" className={styles.testimonialImg} />
+        <img src="/parent2.jpg" alt="Parent of Chandin" className={styles.testimonialImg} />
+        <h3 className={styles.testimonialName}>name</h3>
         <p className={styles.testimonialQuote}>
-          Chandin has developed a wonderful sense of independence at Future Kids.
-          She can now eat independently using a fork and spoon, wash her hands by herself, find and put on her own shoes, and clean up her toys after playing. 
-          We are very pleased with her progress. Future Kids provides Western-standard quality education with a strong focus on safety and hygiene. We also appreciate the 1-week free trial offered to new students, which gives parents a great opportunity to experience the school before enrolling.”
+          " Chandin has developed a wonderful sense of independence at Future Kids. She can now eat independently using a fork and spoon, wash her hands by herself, find and put on her own shoes, and clean up her toys after playing. We are very pleased with her progress. Future Kids provides Western-standard quality education with a strong focus on safety and hygiene. We also appreciate the 1-week free trial offered to new students, which gives parents a great opportunity to experience the school before enrolling. "
         </p>
-        <strong>Chan Sopheak</strong>
-        <span className={styles.testimonialRole}>Parent of a Nursery Student</span>
       </div>
 
       <div className={styles.testimonialCard}>
-        <img src="/parent3.jpg" alt="Ly Sreymom" className={styles.testimonialImg} />
+        <img src="/p2.jpg" alt="Parent of Hong Noreakithya" className={styles.testimonialImg} />
+        <h3 className={styles.testimonialName}>name</h3>
         <p className={styles.testimonialQuote}>
-          My 3-year-old son, Hong Noreakithya, has been studying at Future Kids School for two months, and we have already noticed wonderful improvements in his communication, respect, and self-discipline.
-           He is now more focused on writing, follows classroom rules, and has significantly reduced his screen time. 
-           We are very happy with his progress and truly appreciate the care and guidance he receives at Future Kids.
-          I highly recommend Future Kids to any parent looking for a safe, trustworthy school that genuinely cares about children’s development and well-being.”
+          " My 3-year-old son, Hong Noreakithya, has been studying at Future Kids School for two months, and we have already noticed wonderful improvements in his communication, respect, and self-discipline. He is now more focused on writing, follows classroom rules, and has significantly reduced his screen time. We are very happy with his progress and truly appreciate the care and guidance he receives at Future Kids. I highly recommend Future Kids to any parent looking for a safe, trustworthy school that genuinely cares about children's development and well-being. "
         </p>
-        <strong>Ly Sreymom</strong>
-        <span className={styles.testimonialRole}>Parent of a Preschool Student</span>
       </div>
 
       <div className={styles.testimonialCard}>
-        <img src="/parent4.jpg" alt="Heng Vibol" className={styles.testimonialImg} />
+        <img src="/parent4.jpg" alt="Parent Testimonial" className={styles.testimonialImg} />
+        <h3 className={styles.testimonialName}>name</h3>
         <p className={styles.testimonialQuote}>
-          Since joining Future Kids, my daughter has made remarkable progress in her language and vocabulary skills.
-           She loves singing along with her teachers and has become more cooperative, understanding, and less stubborn. 
-           We have also noticed a significant reduction in her TV and phone screen time. Most importantly, she has developed a strong sense of independence—she can eat by herself, prepare her own milk, and manage her daily routines with confidence.
-            We are very happy with her progress and grateful for the care and guidance she receives at Future Kids.”
+          " Since joining Future Kids, my daughter has made remarkable progress in her language and vocabulary skills. She loves singing along with her teachers and has become more cooperative, understanding, and less stubborn. We have also noticed a significant reduction in her TV and phone screen time. Most importantly, she has developed a strong sense of independence—she can eat by herself, prepare her own milk, and manage her daily routines with confidence. We are very happy with her progress and grateful for the care and guidance she receives at Future Kids. "
         </p>
-        <strong>Heng Vibol</strong>
-        <span className={styles.testimonialRole}>Parent of a Kindergarten Student</span>
       </div>
 
-     <div className={`${styles.testimonialCard} ${styles.testimonialCenter}`}>
-  <img src="/parent5.jpg" alt="Chea Sopha" className={styles.testimonialImg} />
-  <p className={styles.testimonialQuote}>
-    “My 2-year-11-month-old son has made wonderful progress since joining Future Kids. 
-    Although he used to be a picky eater at home, he now enjoys eating a variety of foods at school. 
-    His communication skills have also improved significantly—he asks questions, responds actively, and expresses himself more confidently. 
-    He has developed many positive habits, such as putting rubbish in the bin, singing school songs at home, and greeting others politely. 
-    What I especially appreciate about Future Kids is its strong focus on children’s safety and the exceptionally clean and well-maintained bathrooms.
-  </p>
-  <strong>Chea Sopha</strong>
-  <span className={styles.testimonialRole}>Parent of a Nursery Student</span>
-</div>
+      <div className={styles.testimonialCard}>
+        <img src="/p3.png" alt="Parent Testimonial" className={styles.testimonialImg} />
+        <h3 className={styles.testimonialName}>name</h3>
+        <p className={styles.testimonialQuote}>
+          " My 2-year-11-month-old son has made wonderful progress since joining Future Kids. Although he used to be a picky eater at home, he now enjoys eating a variety of foods at school. His communication skills have also improved significantly—he asks questions, responds actively, and expresses himself more confidently. He has developed many positive habits, such as putting rubbish in the bin, singing school songs at home, and greeting others politely. What I especially appreciate about Future Kids is its strong focus on children's safety and the exceptionally clean and well-maintained bathrooms. "
+        </p>
+      </div>
 
     </div>
   </div>
-</section>  
+</section>
 
       {/* CTA */}
       <section className={styles.cta}>

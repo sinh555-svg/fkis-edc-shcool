@@ -163,7 +163,9 @@
   gap: 24px;
 }
 @media (max-width: 960px) {
-  .teacherGrid { grid-template-columns: repeat(2, 1fr); }
+  .teacherGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .programOverviewGrid {
@@ -186,6 +188,7 @@
 }
 .programOverviewCard h3 {
   margin: 16px 0 8px;
+  color: red;
 }
 .programOverviewCard p {
   padding: 0 16px 20px;
@@ -195,7 +198,6 @@
   .programOverviewGrid {
     grid-template-columns: 1fr;
   }
-  
 }
 .showcaseWrap {
   display: flex;
@@ -248,50 +250,67 @@
     direction: ltr;
   }
 }
+
 .testimonialGrid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 32px;
-  margin-top: 20px;
-}
-.testimonialCard {
-  background: var(--white);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-soft);
-  padding: 32px;
-  text-align: center;
-}
-.testimonialImg {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 0 auto 16px;
-  display: block;
-}
-.testimonialQuote {
-  font-style: italic;
-  color: var(--navy);
-  margin-bottom: 16px;
-  line-height: 1.6;
-}
-.testimonialRole {
-  display: block;
-  font-size: 13px;
-  color: var(--text-muted, #777);
-  margin-top: 4px;
-}
-.testimonialCenter {
-  grid-column: 1 / -1;
-  max-width: 500px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  margin-top: 60px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (max-width: 700px) {
-  .testimonialGrid {
-    grid-template-columns: 1fr;
+.testimonialCard {
+  position: relative;
+  background: var(--white, #fff);
+  border: 1px solid var(--line, #e5e5e5);
+  border-radius: 12px;
+  box-shadow: var(--shadow-soft);
+  padding: 24px 28px 24px 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonialImg {
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  transform: translateY(-50%);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--white, #fff);
+  box-shadow: var(--shadow-soft);
+}
+
+.testimonialName {
+  color: #e8502a;
+  font-size: 16px;
+  margin: 0 0 8px;
+}
+
+.testimonialQuote {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.75;
+  margin: 0;
+  text-align: justify;
+}
+
+@media (max-width: 640px) {
+  .testimonialCard {
+    padding: 20px 20px 20px 90px;
+  }
+  .testimonialImg {
+    width: 70px;
+    height: 70px;
+    left: -25px;
   }
 }
+
 .readMoreBtn {
   margin-top: 16px;
   padding: 10px 24px;
@@ -308,7 +327,7 @@
   background: var(--navy-2, #0b2e54);
 }
 .historyImg {
-  border-radius: 1rem;   /* ← ប្តូរត្រង់នេះ */
+  border-radius: 1rem; /* ← ប្តូរត្រង់នេះ */
   box-shadow: var(--shadow-soft);
   width: 100%;
   aspect-ratio: 4/3;
