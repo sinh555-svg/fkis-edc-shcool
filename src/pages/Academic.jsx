@@ -31,7 +31,6 @@ export default function Academic() {
       <section className="section">
         <div className="container">
           <div className="section-head center">
-            <span className="eyebrow">{t("academic.programs.eyebrow")}</span>
             <h2>{t("academic.programs.title")}</h2>
           </div>
           <div className={styles.programGrid}>
@@ -56,44 +55,34 @@ export default function Academic() {
         </div>
       </section>
 
-      {/* DEPARTMENTS */}
-      <section
-        className="section section--tight"
-        style={{ background: "var(--white)" }}
-      >
-        <div className="container">
-          <div className="section-head center">
-            <span className="eyebrow">{t("academic.departments.eyebrow")}</span>
-            <h2>{t("academic.departments.title")}</h2>
-          </div>
-          <div className={styles.pillGrid}>
-            {DEPT_KEYS.map((key) => {
-              const text = t(`academic.departments.items.${key}`)
-              return (
-                <span key={key} className={`${styles.pill} ${!text ? styles.pillEmpty : ''}`}>
-                  {text}
-                </span>
-              )
-            })}
-          </div>
-        </div>
-      </section>
+{/* PROGRAM HIGHLIGHTS */}
+<section className="section">
+  <div className="container">
+    <div className="section-head center">
+      <h2 style={{ color: "#f01010" }}>Program</h2>
+      <p>A safe and happy place where young children learn by playing and exploring.</p>
+    </div>
+    <div className={styles.programHighlightWrap}>
 
-      {/* CURRICULUM */}
-      <section className="section">
-        <div className="container">
-          <div className={styles.curriculum}>
-            <div>
-              <span className="eyebrow">
-                {t("academic.curriculum.eyebrow")}
-              </span>
-              <h2>{t("academic.curriculum.title")}</h2>
-              <p>{t("academic.curriculum.body")}</p>
-            </div>
-            <img src="077.jpg" alt="" className={styles.curriculumImg} />
-          </div>
+      <div className={styles.programHighlightRow}>
+        <img src="/f6.jpg" alt="Holistic Growth" className={styles.programHighlightImg} />
+        <div>
+          <h3>Holistic Growth</h3>
+          <p>Helps children develop their body, mind, and senses through play.</p>
         </div>
-      </section>
+      </div>
+
+      <div className={styles.programHighlightRow}>
+        <img src="/f11.jpg" alt="Early Independence" className={styles.programHighlightImg} />
+        <div>
+          <h3>Early Independence</h3>
+          <p>Encourages children to be independent and confident.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       {/* METHODS */}
       <section
@@ -160,7 +149,7 @@ export default function Academic() {
             {schedule.map((row) => (
               <div key={row.time} className={styles.scheduleRow}>
                 <span className={styles.scheduleTime}>{row.time}</span>
-                <span>{row.activity}</span>
+                <span className={styles.scheduleActivity}>{row.activity}</span>
               </div>
             ))}
           </div>

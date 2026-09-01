@@ -124,7 +124,10 @@
     "principalPhoto": {
       "eyebrow": "Leadership",
       "title": "Information Office",
-      "body": "Our information office is happy to welcome you and ready to help. We provide information and advice about our Montessori study programs and how to enroll your child.Our team is dedicated to giving you clear, professional, and caring service. We want to help you choose a safe, high-quality learning environment that fits your child's growth and overall development.We warmly welcome you and your family to visit our campus, and we look forward to meeting you soon! "
+      "body": ["Our information office is happy to welcome you and ready to help. We provide information and advice about our Montessori study programs and how to enroll your child.",
+              "Our team is dedicated to giving you clear, professional, and caring service. We want to help you choose a safe, high-quality learning environment that fits your child's growth and overall development.",
+              "We warmly welcome you and your family to visit our campus, and we look forward to meeting you soon!"
+    ]
     }
   },
   "academic": {

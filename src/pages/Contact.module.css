@@ -46,5 +46,5 @@
   background-position: center top;
   padding: calc(var(--nav-height) + 250px) 0 96px;
   position: relative;
-  background-position: center -75rem;
+  background-position: center -50rem;
 }

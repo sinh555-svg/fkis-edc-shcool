@@ -117,7 +117,7 @@ export default function Home() {
 
       {/* Row 1: Image Left, Text Right */}
       <div className={styles.showcaseRow}>
-        <img src="/077.jpg" alt="Information Office" className={styles.showcaseImg} />
+        <img src="/f8.png" alt="Information Office" className={styles.showcaseImg} />
         <div>
           <h3>A Clam and Inspiring Learning Environment</h3>
           <p>
@@ -136,12 +136,12 @@ export default function Home() {
              Our eco-conscious campus features creatively repurposed shipping containers, solar energy, and spacious green areas where children can learn, play, and connect with nature every day.We believe that a sustainable environment inspires responsible, curious, and confident young learners.
           </p>
         </div>
-        <img src="/classroom.jpg" alt="Classroom" className={styles.showcaseImg} />
+        <img src="/f7.png" alt="Classroom" className={styles.showcaseImg} />
       </div>
 
       {/* Row 3: Image Left, Text Right */}
       <div className={styles.showcaseRow}>
-        <img src="/playground.jpg" alt="Playground" className={styles.showcaseImg} />
+        <img src="/show-room.jpg" alt="Playground" className={styles.showcaseImg} />
         <div>
           <h3>Designed Classrooms</h3>
           <p>
@@ -160,7 +160,7 @@ export default function Home() {
     <div className={styles.split}>
       <h2 style={{ textAlign: "center" }}>Student Wellbeing & Safeguarding</h2>
       <img
-        src="/hs1.png"
+        src="/f3.jpg"
         alt="Student Wellbeing"
         className={styles.historyImg}
       />
@@ -290,15 +290,15 @@ export default function Home() {
 
       <div className={styles.testimonialCard}>
         <img src="/p1.jpg" alt="Parent Testimonial" className={styles.testimonialImg} />
-        <h3 className={styles.testimonialName}>name</h3>
+        <h3 className={styles.testimonialName}>Future Kids School</h3>
         <p className={styles.testimonialQuote}>
           " Future Kids has helped my daughter develop a strong sense of independence. She now eats on her own, puts her plate in the sink after meals, and takes responsibility for her daily routines at home. She understands what needs to be done and completes her tasks independently, without needing to be reminded. We are very happy to see how much confidence and responsibility she has developed. "
         </p>
       </div>
 
       <div className={styles.testimonialCard}>
-        <img src="/parent2.jpg" alt="Parent of Chandin" className={styles.testimonialImg} />
-        <h3 className={styles.testimonialName}>name</h3>
+        <img src="/f10.jpg" alt="Parent of Chandin" className={styles.testimonialImg} />
+        <h3 className={styles.testimonialName}>Future Kids School</h3>
         <p className={styles.testimonialQuote}>
           " Chandin has developed a wonderful sense of independence at Future Kids. She can now eat independently using a fork and spoon, wash her hands by herself, find and put on her own shoes, and clean up her toys after playing. We are very pleased with her progress. Future Kids provides Western-standard quality education with a strong focus on safety and hygiene. We also appreciate the 1-week free trial offered to new students, which gives parents a great opportunity to experience the school before enrolling. "
         </p>
@@ -306,7 +306,7 @@ export default function Home() {
 
       <div className={styles.testimonialCard}>
         <img src="/p2.jpg" alt="Parent of Hong Noreakithya" className={styles.testimonialImg} />
-        <h3 className={styles.testimonialName}>name</h3>
+        <h3 className={styles.testimonialName}>Future Kids School</h3>
         <p className={styles.testimonialQuote}>
           " My 3-year-old son, Hong Noreakithya, has been studying at Future Kids School for two months, and we have already noticed wonderful improvements in his communication, respect, and self-discipline. He is now more focused on writing, follows classroom rules, and has significantly reduced his screen time. We are very happy with his progress and truly appreciate the care and guidance he receives at Future Kids. I highly recommend Future Kids to any parent looking for a safe, trustworthy school that genuinely cares about children's development and well-being. "
         </p>
@@ -314,7 +314,7 @@ export default function Home() {
 
       <div className={styles.testimonialCard}>
         <img src="/parent4.jpg" alt="Parent Testimonial" className={styles.testimonialImg} />
-        <h3 className={styles.testimonialName}>name</h3>
+        <h3 className={styles.testimonialName}>Future Kids School</h3>
         <p className={styles.testimonialQuote}>
           " Since joining Future Kids, my daughter has made remarkable progress in her language and vocabulary skills. She loves singing along with her teachers and has become more cooperative, understanding, and less stubborn. We have also noticed a significant reduction in her TV and phone screen time. Most importantly, she has developed a strong sense of independence—she can eat by herself, prepare her own milk, and manage her daily routines with confidence. We are very happy with her progress and grateful for the care and guidance she receives at Future Kids. "
         </p>
@@ -322,7 +322,7 @@ export default function Home() {
 
       <div className={styles.testimonialCard}>
         <img src="/p3.png" alt="Parent Testimonial" className={styles.testimonialImg} />
-        <h3 className={styles.testimonialName}>name</h3>
+        <h3 className={styles.testimonialName}>Future Kids School</h3>
         <p className={styles.testimonialQuote}>
           " My 2-year-11-month-old son has made wonderful progress since joining Future Kids. Although he used to be a picky eater at home, he now enjoys eating a variety of foods at school. His communication skills have also improved significantly—he asks questions, responds actively, and expresses himself more confidently. He has developed many positive habits, such as putting rubbish in the bin, singing school songs at home, and greeting others politely. What I especially appreciate about Future Kids is its strong focus on children's safety and the exceptionally clean and well-maintained bathrooms. "
         </p>

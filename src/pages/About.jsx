@@ -33,7 +33,7 @@ export default function About() {
         <div className="container">
           <div className={styles.split}>
             <motion.img
-              src="school-history.jpg"
+              src="school-history1.jpg"
               alt=""
               className={styles.historyImg}
               initial={{ opacity: 0, x: -20 }}
@@ -91,7 +91,7 @@ export default function About() {
       {/* Row 2: Image Left, Text Right */}
       <div className={`${styles.showcaseRow} ${styles.showcaseReverse}`}>
         <div>
-          <h3>Playground</h3>
+          <h3>PlayGround</h3>
           <p>Our thoughtfully designed outdoor learning environment provides a safe and engaging space where children explore, play, and connect with nature while developing confidence, resilience, creativity, and essential physical, cognitive, social, and emotional skills.</p>
         </div>
         <img src="/hs2.jpg" alt="Playground" className={styles.showcaseImg} />
@@ -162,11 +162,10 @@ export default function About() {
         <div className="container">
           <div className={styles.split}>
             <div>
-              <span className="eyebrow">
-                {t("about.principalPhoto.eyebrow")}
-              </span>
               <h2>{t("about.principalPhoto.title")}</h2>
-              <p>{t("about.principalPhoto.body")}</p>
+             {t("about.principalPhoto.body", { returnObjects: true }).map((para, i) => (
+  <p key={i}>{para}</p>
+))}
             </div>
             <motion.img
               src="office.png"
