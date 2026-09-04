@@ -55,6 +55,20 @@ export default function Academic() {
         </div>
       </section>
 
+      {/* CURRICULUM FRAMEWORK */}
+<section className="section" style={{ background: "var(--white)" }}>
+  <div className="container">
+    <div className="section-head center">
+      <h3 style={{ color: "#f10707" }}>Our Curriculum Framework</h3>
+    </div>
+    <img
+      src="/7lsa.png"
+      alt="7 Learning Areas - Montessori Curriculum Framework"
+      className={styles.curriculumFrameworkImg}
+    />
+  </div>
+</section>
+
 {/* PROGRAM HIGHLIGHTS */}
 <section className="section">
   <div className="container">

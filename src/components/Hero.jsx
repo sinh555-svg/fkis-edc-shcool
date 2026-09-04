@@ -23,14 +23,16 @@ export default function Hero() {
           {t('hero.eyebrow')}
         </motion.span>
 
-        <motion.h1
-          className={styles.title}
-          initial={{ opacity: 0, y: 22 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.1 }}
-        >
-          {t('hero.title')}
-        </motion.h1>
+       <motion.h1
+  className={styles.title}
+  initial={{ opacity: 0, y: 22 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7, delay: 0.1 }}
+>
+  <span style={{ color: "#0099ff" }}>Future</span>{" "}
+  <span style={{ color: "#ff0000" }}>Kids</span>{" "}
+  International School
+</motion.h1>
 
         <motion.p
           className={styles.subtitle}
