@@ -46,5 +46,25 @@
   background-position: center top;
   padding: calc(var(--nav-height) + 250px) 0 96px;
   position: relative;
-  background-position: center -50rem;
+  background-position: center -60rem;
+}
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+.contactImg {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+}
+
+@media (max-width: 800px) {
+  .split {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
 }

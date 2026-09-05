@@ -24,6 +24,25 @@ export default function Contact() {
           <p className={styles.pageSubtitle}>{t('contact.hero.subtitle')}</p>
         </div>
        
+{/* CONTACT INFO */}
+<section className="section" style={{ background: "var(--white)" }}>
+  <div className="container">
+    <div className={styles.split}>
+      <img
+        src="/school-history1.jpg"
+        alt="Contact Us"
+        className={styles.contactImg}
+      />
+      <div>
+        <h2>Contact Info</h2>
+        <p>
+          Our friendly staff are ready to welcome you! Feel free to visit our campus, call us, or send a message — we look forward to hearing from you.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
       </section>
 
       <section className="section">
@@ -58,3 +77,4 @@ export default function Contact() {
     </>
   )
 }
+
