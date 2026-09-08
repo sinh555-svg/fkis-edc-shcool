@@ -313,7 +313,7 @@ export default function Home() {
       </div>
 
       <div className={styles.testimonialCard}>
-        <img src="/parent4.jpg" alt="Parent Testimonial" className={styles.testimonialImg} />
+        <img src="/p4.jpg" alt="Parent Testimonial" className={styles.testimonialImg} />
         <h3 className={styles.testimonialName}>Future Kids School</h3>
         <p className={styles.testimonialQuote}>
           " Since joining Future Kids, my daughter has made remarkable progress in her language and vocabulary skills. She loves singing along with her teachers and has become more cooperative, understanding, and less stubborn. We have also noticed a significant reduction in her TV and phone screen time. Most importantly, she has developed a strong sense of independence—she can eat by herself, prepare her own milk, and manage her daily routines with confidence. We are very happy with her progress and grateful for the care and guidance she receives at Future Kids. "
