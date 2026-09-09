@@ -85,7 +85,6 @@ export default function News() {
       >
         <div className="container">
           <div className="section-head center">
-            <span className="eyebrow">{t("news.upcoming.eyebrow")}</span>
             <h2>{t("news.upcoming.title")}</h2>
           </div>
           <div className={styles.eventList}>
