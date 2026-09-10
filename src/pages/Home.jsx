@@ -249,7 +249,6 @@ export default function Home() {
       <section className="section" style={{ background: "var(--white)" }}>
         <div className="container">
           <div className="section-head center">
-            <span className="eyebrow">Our People</span>
             <h2>Meet Our Teachers</h2>
           </div>
           <div className={styles.teacherGrid}>
