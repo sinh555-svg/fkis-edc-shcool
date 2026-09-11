@@ -11,15 +11,26 @@ import { useTheme } from '../context/ThemeContext.jsx'
 import styles from './Navbar.module.css'
 
 const LINKS = [
-  { to: '/', key: 'home' },
+  {
+    to: '/',
+    key: 'home',
+    children: [
+      { to: '/#program-overview', label: 'Program Overview' },
+      { to: '/#wellbeing', label: 'Student Wellbeing & Safeguarding' },
+      { to: '/#principal', label: 'A CEO Chief Executive Officer' },
+      { to: '/#teachers', label: 'Meet Our Teachers' },
+      { to: '/#testimonials', label: 'Parent Testimonials' },
+    ],
+  },
   { to: '/about', key: 'about' },
   { to: '/academic', key: 'academic' },
   { to: '/admission', key: 'admission' },
   { to: '/news', key: 'news' },
   { to: '/contact', key: 'contact' },
-]
 
+]
 export default function Navbar() {
+  const [dropdownOpen, setDropdownOpen] = useState(null)
   const { t } = useTranslation()
   const { theme, toggleTheme } = useTheme()
   const [scrolled, setScrolled] = useState(false)
@@ -44,17 +55,51 @@ export default function Navbar() {
         </NavLink>
 
         <nav className={styles.desktopNav} aria-label="Primary">
-          {LINKS.map((link) => (
-            <NavLink
-              key={link.to}
-              to={link.to}
-              end={link.to === '/'}
-              className={({ isActive }) => `${styles.navLink} ${isActive ? styles.navLinkActive : ''}`}
+  {LINKS.map((link) =>
+    link.children ? (
+      <div
+        key={link.to}
+        className={styles.dropdownWrap}
+        onMouseEnter={() => setDropdownOpen(link.to)}
+        onMouseLeave={() => setDropdownOpen(null)}
+      >
+        <NavLink
+          to={link.to}
+          end={link.to === '/'}
+          className={({ isActive }) => `${styles.navLink} ${isActive ? styles.navLinkActive : ''}`}
+        >
+          {t(`nav.${link.key}`)}
+        </NavLink>
+        <AnimatePresence>
+          {dropdownOpen === link.to && (
+            <motion.div
+              className={styles.dropdownMenu}
+              initial={{ opacity: 0, y: -8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.15 }}
             >
-              {t(`nav.${link.key}`)}
-            </NavLink>
-          ))}
-        </nav>
+              {link.children.map((child) => (
+                <a key={child.to} href={child.to} className={styles.dropdownItem}>
+                  {child.label}
+                </a>
+              ))}
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+    ) : (
+      <NavLink
+        key={link.to}
+        to={link.to}
+        end={link.to === '/'}
+        className={({ isActive }) => `${styles.navLink} ${isActive ? styles.navLinkActive : ''}`}
+      >
+        {t(`nav.${link.key}`)}
+      </NavLink>
+    )
+  )}
+</nav>
 
         <div className={styles.actions}>
           <button

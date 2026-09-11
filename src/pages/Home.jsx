@@ -77,7 +77,8 @@ export default function Home() {
       <Hero />
 
     {/* PROGRAM OVERVIEW */}
-<section
+<section 
+  id="program-overview"
   className="section section--tight"
   style={{ background: "var(--white)" }}
 >
@@ -109,6 +110,8 @@ export default function Home() {
     </div>
   </div>
 </section>
+
+
 
     {/* CAMPUS SHOWCASE - Alternating Layout */}
 <section className="section" style={{ background: "var(--white)" }}>
@@ -155,7 +158,7 @@ export default function Home() {
 </section>
 
       {/* STUDENT WELLBEING & SAFEGUARDING */}
-<section className="section" style={{ background: "var(--white)" }}>
+<section id="wellbeing" className="section" style={{ background: "var(--white)" }}>
   <div className="container">
     <div className={styles.split}>
       <h2 style={{ textAlign: "center" }}>Student Wellbeing & Safeguarding</h2>
@@ -209,7 +212,7 @@ export default function Home() {
       </section>
 
       {/* PRINCIPAL MESSAGE */}
-      <section className="section">
+      <section id="principal" className="section">
         <div className="container">
           <div className={styles.principal}>
             <motion.div
@@ -241,12 +244,9 @@ export default function Home() {
         </div>
       </section>
 
-      
-
-     
 
       {/* TEACHERS */}
-      <section className="section" style={{ background: "var(--white)" }}>
+     <section id="teachers" className="section" style={{ background: "var(--white)" }}>
         <div className="container">
           <div className="section-head center">
             <h2>Meet Our Teachers</h2>
@@ -280,7 +280,7 @@ export default function Home() {
       </section>
 
     {/* PARENT TESTIMONIALS */}
-<section className="section">
+<section id="testimonials" className="section">
   <div className="container">
     <div className="section-head center">
       <h2 style={{ color: "#e8502a" }}>Parent Testimonials</h2>
