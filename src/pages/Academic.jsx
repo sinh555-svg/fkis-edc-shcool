@@ -129,7 +129,6 @@ export default function Academic() {
       <section className="section">
         <div className="container">
           <div className="section-head center">
-            <span className="eyebrow">{t("academic.activities.eyebrow")}</span>
             <h2>{t("academic.activities.title")}</h2>
           </div>
           <div className={styles.videoWrap}>

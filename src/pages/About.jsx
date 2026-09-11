@@ -29,7 +29,7 @@ export default function About() {
       </section>
 
       {/* HISTORY */}
-      <section className="section">
+      <section id="history" className="section">
         <div className="container">
           <div className={styles.split}>
             <motion.img
@@ -53,7 +53,7 @@ export default function About() {
       </section>
 
    {/* WHY CHOOSE US */}
-<section
+<section id="why-choose-us"
   className="section section--tight"
   style={{ background: "var(--white)" }}
 >
@@ -67,7 +67,7 @@ export default function About() {
 </section>
 
   {/* FACILITIES */}
-<section
+<section id="facilities"
   className="section section--tight"
   style={{ background: "var(--white)" }}
 >
@@ -129,7 +129,7 @@ export default function About() {
 </section>
 
       {/* TIMELINE */}
-      <section className="section">
+     <section id="values" className="section">
         <div className="container">
           <div className="section-head center">
             <span className="eyebrow">{t("about.timeline.eyebrow")}</span>
@@ -155,7 +155,7 @@ export default function About() {
       </section>
 
       {/* LEADERSHIP */}
-      <section
+     <section id="office"
         className="section section--tight"
         style={{ background: "var(--white)" }}
       >

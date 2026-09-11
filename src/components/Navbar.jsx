@@ -9,7 +9,6 @@ import LanguageSwitcher from './LanguageSwitcher.jsx'
 import Button from './Button.jsx'
 import { useTheme } from '../context/ThemeContext.jsx'
 import styles from './Navbar.module.css'
-
 const LINKS = [
   {
     to: '/',
@@ -22,7 +21,17 @@ const LINKS = [
       { to: '/#testimonials', label: 'Parent Testimonials' },
     ],
   },
-  { to: '/about', key: 'about' },
+  {
+    to: '/about',
+    key: 'about',
+    children: [
+      { to: '/about#history', label: 'School History' },
+      { to: '/about#why-choose-us', label: 'Why Choose Us' },
+      { to: '/about#facilities', label: "Kids' Entertainment Area" },
+      { to: '/about#values', label: 'Vision Mission Value' },
+      { to: '/about#office', label: 'Information Office' },
+    ],
+  },
   { to: '/academic', key: 'academic' },
   { to: '/admission', key: 'admission' },
   { to: '/news', key: 'news' },
