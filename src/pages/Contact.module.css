@@ -23,6 +23,7 @@
 
 .infoList h3 {
   margin-bottom: 22px;
+  color: var(--blue-dark);
 }
 .infoItem {
   display: flex;
@@ -67,6 +68,7 @@
 }
 .formCard h3 {
   margin-bottom: 22px;
+  color: red;
 }
 
 @media (max-width: 900px) {
