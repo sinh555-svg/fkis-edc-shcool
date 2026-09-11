@@ -56,7 +56,7 @@ export default function Academic() {
       </section>
 
       {/* CURRICULUM FRAMEWORK */}
-<section className="section" style={{ background: "var(--white)" }}>
+<section id="curriculum-framework" style={{ background: "var(--white)" }}>
   <div className="container">
     <div className="section-head center">
       <h3 style={{ color: "#f10707" }}>Our Curriculum Framework</h3>
@@ -70,7 +70,7 @@ export default function Academic() {
 </section>
 
 {/* PROGRAM HIGHLIGHTS */}
-<section className="section">
+<section id="programs" className="section">
   <div className="container">
     <div className="section-head center">
       <h2 style={{ color: "#f01010" }}>Program</h2>
@@ -126,7 +126,7 @@ export default function Academic() {
       </section>
 
       {/* ACTIVITIES */}
-      <section className="section">
+     <section id="activities" className="section">
         <div className="container">
           <div className="section-head center">
             <h2>{t("academic.activities.title")}</h2>
@@ -146,7 +146,7 @@ export default function Academic() {
       </section>
 
       {/* SCHEDULE */}
-      <section
+     <section id="schedule" 
         className="section section--tight"
         style={{ background: "var(--white)" }}
       >

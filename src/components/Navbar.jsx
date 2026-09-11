@@ -32,11 +32,19 @@ const LINKS = [
       { to: '/about#office', label: 'Information Office' },
     ],
   },
-  { to: '/academic', key: 'academic' },
+  {
+    to: '/academic',
+    key: 'academic',
+    children: [
+      { to: '/academic#curriculum-framework', label: 'Our Curriculum Framework' },
+      { to: '/academic#programs', label: 'Program' },
+      { to: '/academic#activities', label: 'Activities & Student' },
+      { to: '/academic#schedule', label: 'School Schedule' },
+    ],
+  },
   { to: '/admission', key: 'admission' },
   { to: '/news', key: 'news' },
   { to: '/contact', key: 'contact' },
-
 ]
 export default function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(null)
