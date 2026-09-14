@@ -182,3 +182,15 @@ html[data-theme="dark"] .navbar {
 .dropdownItem:hover {
   background: var(--bg-light, #0577e2);
 }
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.chevron {
+  transition: transform 0.2s;
+}
+.dropdownWrap:hover .chevron {
+  transform: rotate(180deg);
+}

@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
-import { FiMenu, FiX, FiSun, FiMoon } from 'react-icons/fi'
+import { FiMenu, FiX, FiSun, FiMoon, FiChevronDown  } from 'react-icons/fi'
 import LanguageSwitcher from './LanguageSwitcher.jsx'
 import Button from './Button.jsx'
 import { useTheme } from '../context/ThemeContext.jsx'
@@ -80,13 +80,15 @@ export default function Navbar() {
         onMouseEnter={() => setDropdownOpen(link.to)}
         onMouseLeave={() => setDropdownOpen(null)}
       >
-        <NavLink
-          to={link.to}
-          end={link.to === '/'}
-          className={({ isActive }) => `${styles.navLink} ${isActive ? styles.navLinkActive : ''}`}
-        >
-          {t(`nav.${link.key}`)}
-        </NavLink>
+       <NavLink
+  to={link.to}
+  end={link.to === '/'}
+  className={({ isActive }) => `${styles.navLink} ${isActive ? styles.navLinkActive : ''}`}
+>
+  {t(`nav.${link.key}`)}
+  <FiChevronDown size={14} className={styles.chevron} />
+</NavLink>
+
         <AnimatePresence>
           {dropdownOpen === link.to && (
             <motion.div
