@@ -17,7 +17,7 @@ export default function Contact() {
 
   return (
     <>
-      <section className={styles.pageHero}>
+    <section id="contact-info" className={styles.pageHero}>
         <div className="container">
           <span className="eyebrow" style={{ color: '#ffd166' }}>{t('contact.hero.eyebrow')}</span>
           <h1 className={styles.pageTitle}>{t('contact.hero.title')}</h1>
@@ -25,7 +25,7 @@ export default function Contact() {
         </div>
        
 {/* CONTACT INFO */}
-<section className="section" style={{ background: "var(--white)" }}>
+<section id="get-in-touch"  style={{ background: "var(--white)" }}>
   <div className="container">
     <div className={styles.split}>
       <img

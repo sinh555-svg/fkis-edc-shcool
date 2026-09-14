@@ -44,7 +44,14 @@ const LINKS = [
   },
   { to: '/admission', key: 'admission' },
   { to: '/news', key: 'news' },
-  { to: '/contact', key: 'contact' },
+  {
+    to: '/contact',
+    key: 'contact',
+    children: [
+      { to: '/contact#contact-info', label: 'Contact Info' },
+      { to: '/contact#get-in-touch', label: 'Get in Touch' },
+    ],
+  },
 ]
 export default function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(null)
