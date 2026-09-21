@@ -79,6 +79,21 @@ export default function News() {
         </div>
       </section>
 
+      {/* ACADEMIC CALENDAR */}
+<section className="section" style={{ background: "var(--white)" }}>
+  <div className="container">
+    <div className="section-head center">
+      <span className="eyebrow">School Year 2026 – 2027</span>
+      <h2>Our Academic Calendar</h2>
+    </div>
+    <img
+      src="/cd26-27.png"
+      alt="Future Kids International School Academic Calendar 2026-2027"
+      className={styles.calendarImg}
+    />
+  </div>
+</section>
+
       <section
         className="section section--tight"
         style={{ background: "var(--white)" }}
