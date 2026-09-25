@@ -75,11 +75,13 @@
 
 .methodGrid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
 }
 .methodCard {
   text-align: left;
+  width: 260px;
+  flex: 0 0 auto;
 }
 .methodIcon {
   display: inline-flex;

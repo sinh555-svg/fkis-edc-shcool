@@ -122,24 +122,7 @@ export default function Admission() {
           </div>
         </div>
       </section>
-      {/* SCHOLARSHIPS */}
-      <section
-        className="section section--tight"
-        style={{ background: "var(--white)" }}
-      >
-        <div className="container">
-          <div className={styles.scholarship}>
-            <div>
-              <span className="eyebrow">
-                {t("admission.scholarships.eyebrow")}
-              </span>
-              <h2>{t("admission.scholarships.title")}</h2>
-              <p>{t("admission.scholarships.body")}</p>
-            </div>
-            <img src="all-s.jpg" alt="" className={styles.scholarshipImg} />
-          </div>
-        </div>
-      </section>
+     
 
       {/* DOWNLOAD FORM */}
       <section className="section" id="form">

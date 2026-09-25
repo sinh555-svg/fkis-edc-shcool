@@ -1,13 +1,21 @@
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
-import { FiLayers, FiUsers, FiCpu, FiRepeat, FiClock } from 'react-icons/fi'
+import { FiLayers, FiUsers, FiCpu, FiRepeat, FiClock, FiBook, FiGlobe, FiHeart } from 'react-icons/fi'
 import Card from '../components/Card.jsx'
 import styles from './Academic.module.css'
 
 const PROGRAM_KEYS = ['kindergarten', 'primary', 'PreSchool']
 const DEPT_KEYS = ['languages']
-const METHOD_KEYS = ['projectBased', 'smallGroups', 'technology', 'assessment']
-const METHOD_ICONS = { projectBased: FiLayers, smallGroups: FiUsers, technology: FiCpu, assessment: FiRepeat }
+const METHOD_KEYS = ['projectBased', 'smallGroups', 'technology', 'assessment', 'literacy', 'understandingWorld', 'personalSocial']
+const METHOD_ICONS = {
+  projectBased: FiLayers,
+  smallGroups: FiUsers,
+  technology: FiCpu,
+  assessment: FiRepeat,
+  literacy: FiBook,
+  understandingWorld: FiGlobe,
+  personalSocial: FiHeart,
+}
 const ACTIVITY_KEYS = ['robotics', 'debate', 'art', 'music', 'football', 'volunteer']
 
 export default function Academic() {

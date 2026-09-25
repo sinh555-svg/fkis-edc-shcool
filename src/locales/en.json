@@ -140,9 +140,9 @@
       "eyebrow": "Programmes",
       "title": "Kindergarten through Nursery and PreSchool",
       "items": {
-        "kindergarten": { "title": "Kindergarten", "ages": "5-6yrs", "desc": "" },
-        "primary": { "title": "Nursery", "ages": "6mos-3yrs", "desc": "" },
-        "PreSchool": { "title": "Preschool", "ages": "3-4-5yrs", "desc": "" },
+        "kindergarten": { "title": "Nursery", "ages": "6mos-3yrs", "desc": "" },
+        "primary": { "title": "Preschool", "ages": "3yrs-5yrs", "desc": "" },
+        "PreSchool": { "title": "Kindergarten", "ages": "5yrs-6yrs", "desc": "" },
         "highschool": { "title": "", "ages": "", "desc": "" }
       }
     },
@@ -170,7 +170,10 @@
         "projectBased": { "title": "Language & Communication", "desc": "Speaking, listening, vocabulary, and simple conversations" },
         "smallGroups": { "title": "Early Mathematics", "desc": "Numbers, counting, shapes, colors, and simple patterns" },
         "technology": { "title": "Art & Creativity", "desc": "Drawing, coloring, painting, music, and crafts" },
-        "assessment": { "title": "Physical Development", "desc": "Movement, exercise, coordination, and outdoor play" }
+        "assessment": { "title": "Physical Development", "desc": "Movement, exercise, coordination, and outdoor play" },
+        "literacy": { "title": "Literacy", "desc": "Building early reading and writing skills through stories, phonics, and language-rich activities." },
+        "understandingWorld": { "title": "Understanding the World", "desc": "Exploring people, places, culture, nature, and the environment around them." },
+        "personalSocial": { "title": "Personal, Social & Emotional Development", "desc": "Building confidence, self-awareness, relationships, and cooperation with others." }
       }
     },
     "activities": {
@@ -374,9 +377,10 @@
       "desc": "Preparing confident, curious minds for their next big step."
     }
     
-  }
+  } 
 }
 }
+
 
 
 
