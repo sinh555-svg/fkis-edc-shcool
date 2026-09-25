@@ -111,7 +111,7 @@
   grid-template-columns: 209px 20px 1fr;
   align-items: center;
   gap: 16px;
-  padding-bottom: 34px;
+  padding-bottom: 39px;
   position: relative;
 }
 .timelineItem:not(:last-child)::before {
