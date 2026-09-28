@@ -74,10 +74,12 @@
     }
   },
   "cta": {
-    "title": "Admissions for 2026–2027 are now open",
-    "subtitle": "Places are limited across every level. Start your child's application today.",
-    "button": "Start Application"
-  },
+  "title": "Admissions for 2026–2027​​ are Open Now",
+  "subtitle": [
+    "Places are limited across every level."
+  ],
+  "button": "Start Application"
+},
   "about": {
     "hero": {
       "eyebrow": "About Future Kids International School",
@@ -220,7 +222,8 @@
         "reportCard": "Parent/guardian identification",
         "photo": "Emergency contact details",
         "healthRecord": "Parent/guardian interview",
-        "interview": "Family interview with the admissions officer"
+        "interview": "Family interview with the admissions officer",
+        "passportId": "Passport or Identity Card"
       }
     },
     "process": {
@@ -301,7 +304,10 @@
       "email": "Email",
       "emailValue": "futurekidsinternationalschool.1@gmail.com",
       "hours": "Office Hours",
-      "hoursValue": "Monday – Saturday, 7:00 AM – 5:00 PM, (Saturday 7:30AM-11:00AM)"
+      "hoursValue": [
+  "Monday – Friday, 7:00 AM – 5:00 PM",
+  "Saturday, 7:30 AM – 11:00 AM"
+]
 
     },
     "form": {

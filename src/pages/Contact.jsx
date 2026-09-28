@@ -12,7 +12,11 @@ export default function Contact() {
     { icon: FiMapPin, label: t('contact.info.address'), value: t('contact.info.addressValue') },
     { icon: FiPhone, label: t('contact.info.phone'), value: t('contact.info.phoneValue') },
     { icon: FiMail, label: t('contact.info.email'), value: t('contact.info.emailValue') },
-    { icon: FiClock, label: t('contact.info.hours'), value: t('contact.info.hoursValue') },
+    {
+  icon: FiClock,
+  label: t('contact.info.hours'),
+  value: t('contact.info.hoursValue', { returnObjects: true }),
+},
   ]
 
   return (
@@ -55,9 +59,11 @@ export default function Contact() {
                   <div key={item.label} className={styles.infoItem}>
                     <span className={styles.infoIcon}><item.icon size={18} /></span>
                     <div>
-                      <span className={styles.infoLabel}>{item.label}</span>
-                      <p>{item.value}</p>
-                    </div>
+  <span className={styles.infoLabel}>{item.label}</span>
+  {(Array.isArray(item.value) ? item.value : [item.value]).map((para, i) => (
+    <p key={i}>{para}</p>
+  ))}
+</div>
                   </div>
                 ))}
               </div>

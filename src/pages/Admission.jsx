@@ -11,6 +11,7 @@ const REQ_KEYS = [
   "photo",
   "healthRecord",
   "interview",
+  "passportId",
 ];
 const STEP_KEYS = ["step1", "step2", "step3", "step4"];
 const TUITION_KEYS = ["kindergarten", "Nursery", "secondary", "highschool"];

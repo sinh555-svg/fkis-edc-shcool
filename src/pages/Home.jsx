@@ -71,6 +71,8 @@ export default function Home() {
     : typeof principalBody === "string"
       ? principalBody.split(/(?<=[.!?])\s+/).filter(Boolean)
       : [];
+      const ctaBody = t("cta.subtitle", { returnObjects: true });
+      const ctaParagraphs = Array.isArray(ctaBody) ? ctaBody : [ctaBody];
 
   return (
     <>
@@ -331,26 +333,28 @@ export default function Home() {
   </div>
 </section>
 
-      {/* CTA */}
-      <section className={styles.cta}>
-        <div className="container">
-          <motion.div
-            className={styles.ctaBox}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-          >
-            <div>
-              <h2>{t("cta.title")}</h2>
-              <p>{t("cta.subtitle")}</p>
-            </div>
-            <Button to="/admission" variant="primary">
-              {t("cta.button")}
-            </Button>
-          </motion.div>
-        </div>
-      </section>
+    {/* CTA */}
+<section className={styles.cta}>
+  <div className="container">
+    <motion.div
+      className={styles.ctaBox}
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5 }}
+    >
+      <div>
+        <h2>{t("cta.title")}</h2>
+        {ctaParagraphs.map((para, i) => (
+          <p key={i}>{para}</p>
+        ))}
+      </div>
+      <Button to="/admission" variant="primary">
+        {t("cta.button")}
+      </Button>
+    </motion.div>
+  </div>
+</section>
     </>
   );
 }
