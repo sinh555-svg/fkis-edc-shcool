@@ -18,8 +18,12 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(180deg, rgba(15, 155, 219, 0.78) 0%, rgba(11,37,69,0.55) 45%, rgba(11,37,69,0.88) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(15, 155, 219, 0.78) 0%,
+    rgba(11, 37, 69, 0.55) 45%,
+    rgba(11, 37, 69, 0.88) 100%
+  );
 }
 
 .content {
@@ -41,7 +45,6 @@
   color: #ffd166;
   margin-bottom: 18px;
 }
-.eyebrow::before { content: ""; width: 22px; height: 2px; background: var(--red); display: inline-block; border-radius: 2px; }
 
 .title {
   color: var(--white);
@@ -57,7 +60,11 @@
   margin-bottom: 34px;
 }
 
-.ctas { display: flex; gap: 14px; flex-wrap: wrap; }
+.ctas {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
 
 .arc {
   position: absolute;
@@ -66,12 +73,16 @@
   width: 100%;
   height: 90px;
   z-index: 1;
-  
 }
 
 @media (max-width: 640px) {
-  .hero { min-height: 82vh; }
-  .content { padding-bottom: 90px; }
-  .subtitle { font-size: 16px; }
+  .hero {
+    min-height: 82vh;
+  }
+  .content {
+    padding-bottom: 90px;
+  }
+  .subtitle {
+    font-size: 16px;
+  }
 }
-
