@@ -235,7 +235,7 @@
     },
     "tuition": {
       "eyebrow": "Promotion",
-      "title": "🎉 1-Week Free Trial Classes!",
+      "title": " 1-Week Free Trial Classes!",
       "note": "Give your child the opportunity to learn, grow, and succeed!",
       "items": {
         "kindergarten": { "level": "Kindergarten(Grades1-2)", "price": "" },
@@ -280,16 +280,17 @@
       "n4": { "title": "Teacher Thy Panha", "date": "", "desc": "English Head Teacher" }
     },
     "events": {
-      "e1": { "title": "Open Campus Day", "date": "Oct 1st, 2026", "time": "7:30AM - 5:00PM" },
+      "e1": { "title": " Summer Learning adventure", "date": "Ang 17-30, 2026", "time": "7:30AM - 5:00PM" },
       "e2": { "title": "New Student Orientation", "date": "Free Open", "time": "7:30AM - 5:00PM" },
-      "e3": { "title": "Summer Learning adventure", "date": "Ang 17-30, 2026", "time": "7:30AM - 4:30PM" }
+      "e3": { "title": "Open Campus Day", "date": "Oct 1st, 2026", "time": "7:30AM - 4:30PM" },
+      "e4": { "title": "Educational Field Trip", "date": "Soon", "time": "" }
     }
   },
   "contact": {
     "hero": {
       "eyebrow": "Contact",
       "title": "We'd love to hear from you",
-      "subtitle": "Questions about admissions, academics, or a campus visit — our office is one message away."
+      "subtitle": "Questions about admissions, academics, or a campus visit -\nour office is one message away."
     },
     "info": {
       "title": "Get in Touch",

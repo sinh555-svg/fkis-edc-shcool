@@ -297,7 +297,7 @@ export default function Home() {
 
       <div className={styles.testimonialCard}>
         <img src="/f10.jpg" alt="Parent of Chandin" className={styles.testimonialImg} />
-        <h3 className={styles.testimonialName}>Future Kids School</h3>
+        <h3 className={styles.testimonialName}>Future Kids International School</h3>
         <p className={styles.testimonialQuote}>
           " Chandin has developed a wonderful sense of independence at Future Kids. She can now eat independently using a fork and spoon, wash her hands by herself, find and put on her own shoes, and clean up her toys after playing. We are very pleased with her progress. Future Kids provides Western-standard quality education with a strong focus on safety and hygiene. We also appreciate the 1-week free trial offered to new students, which gives parents a great opportunity to experience the school before enrolling. "
         </p>

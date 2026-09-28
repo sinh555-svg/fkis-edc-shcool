@@ -54,34 +54,6 @@ export default function Admission() {
         </div>
       </section>
 
-      {/* PROCESS */}
-      <section
-        className="section section--tight"
-        style={{ background: "var(--white)" }}
-      >
-        <div className="container">
-          <div className="section-head center">
-            <span className="eyebrow">{t("admission.process.eyebrow")}</span>
-            <h2>{t("admission.process.title")}</h2>
-          </div>
-          <div className={styles.stepGrid}>
-            {STEP_KEYS.map((key, i) => (
-              <motion.div
-                key={key}
-                className={styles.step}
-                initial={{ opacity: 0, y: 18 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: i * 0.08 }}
-              >
-                <span className={styles.stepNum}>{i + 1}</span>
-                <h3>{t(`admission.process.steps.${key}.title`)}</h3>
-                <p>{t(`admission.process.steps.${key}.desc`)}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* TUITION */}
       <section className="section">
@@ -123,21 +95,6 @@ export default function Admission() {
         </div>
       </section>
      
-
-      {/* DOWNLOAD FORM */}
-      <section className="section" id="form">
-        <div className="container">
-          <Card className={styles.downloadCard}>
-            <div>
-              <h3>{t("admission.form.title")}</h3>
-              <p>{t("admission.form.body")}</p>
-            </div>
-            <Button href="/application-form.pdf" variant="secondary">
-              <FiDownload size={16} /> {t("admission.form.download")}
-            </Button>
-          </Card>
-        </div>
-      </section>
 
       {/* APPLY BANNER */}
       <section className={styles.applyBanner}>

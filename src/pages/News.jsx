@@ -12,7 +12,7 @@ const NEWS_IMAGES = {
   n3: "888.png",
 };
 
-const EVENT_KEYS = ["e1", "e2", "e3"];
+const EVENT_KEYS = ["e1", "e2", "e3", "e4"];
 
 export default function News() {
   const { t } = useTranslation();
@@ -43,6 +43,7 @@ export default function News() {
           </span>
           <h1 className={styles.pageTitle}>{t("news.hero.title")}</h1>
           <p className={styles.pageSubtitle}>{t("news.hero.subtitle")}</p>
+          
 
           <div className={styles.search}>
             <FiSearch size={18} />

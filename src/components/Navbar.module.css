@@ -74,7 +74,7 @@ html[data-theme="dark"] .navbar {
 }
 .navLinkActive {
   background: var(--bg-light);
-  color: #000;
+  color: red;
 }
 
 .actions {
@@ -145,7 +145,7 @@ html[data-theme="dark"] .navbar {
   }
   .mobileLinkActive {
     background: var(--bg-light);
-    color: #000;
+    color: red;
   }
 }
 
